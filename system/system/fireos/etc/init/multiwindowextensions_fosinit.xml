@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.service.MultiWindowExtensionsService$Lifecycle" />
+    </vendor-services>
+    <vendor-callbacks>
+        <callback base="com.android.server.am.VendorActivityManagerServiceCallback"
+            impl="com.android.server.am.MultiWindowExtensionsAmsCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityDisplayCallback"
+            impl="com.amazon.metrics.SplitScreenVendorActivityDisplayCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityRecordCallback"
+            impl="com.amazon.metrics.SplitScreenVendorActivityRecordCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.pm.VendorPackageManagerCallback"
+            impl="com.amazon.metrics.SplitScreenVendorPackageManagerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.policy.VendorPhoneWindowManagerCallback"
+            impl="com.amazon.metrics.SplitScreenVendorPhoneWindowManagerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.policy.VendorPhoneWindowManagerCallback"
+            impl="com.android.server.policy.SplitScreenToggleCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+</fosinit>

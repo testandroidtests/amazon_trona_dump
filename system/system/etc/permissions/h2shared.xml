@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<library name="com.fireos.sdk.h2shared" file="/system/framework/com.amazon.h2shared.jar"/>
+<feature name="com.fireos.sdk.h2shared" version="3"/>
+</permissions>

@@ -1,0 +1,14 @@
+# trona-user 7.0 PS7321 2324 amz-p,release-keys
+- manufacturer: amazon
+- platform: mt8183
+- codename: trona
+- flavor: trona-user
+- release: 9
+- id: PS7321
+- incremental: 0021274104964
+- tags: amz-p,release-keys
+- fingerprint: Amazon/trona/trona:7.0/PS7321/2324N:user/amz-p,release-keys
+- is_ab: false
+- brand: Amazon
+- branch: trona-user-7.0-PS7321-2324-amz-p,release-keys
+- repo: amazon_trona_dump

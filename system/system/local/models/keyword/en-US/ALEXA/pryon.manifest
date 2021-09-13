@@ -1,0 +1,11 @@
+{
+    "checksum":    "checksum.txt",
+    "default_model_name":    "pryon",
+    "models":    {
+        "pryon":    {
+            "config_file_path":    "pryon.config"
+        }
+    },
+    "object_type_name":    "ModelSetManifest",
+    "object_type_version":    1
+}

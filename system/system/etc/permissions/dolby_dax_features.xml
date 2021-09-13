@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- By declaring the feature amazon.dolby_dap here
+         The api PackageManager.hasSystemFeature(String feature) will
+         return true if passed the String "amazon.dolby_dax".-->
+    <feature name="amazon.dolby_dax" />
+</permissions>

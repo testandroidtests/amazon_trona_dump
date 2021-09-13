@@ -1,0 +1,13 @@
+<eps> 0
+wrdALEXA1a_B 1
+wrdALEXA2l 2
+wrdALEXA3E 3
+wrdALEXA4k 4
+wrdALEXA5s 5
+wrdALEXA6a_E 6
+wrdSTOP1S_B 7
+wrdSTOP2t 8
+wrdSTOP3O 9
+wrdSTOP4p_E 10
+[NS] 11
+[S] 12

@@ -1,0 +1,39 @@
+# Copyright (C) 2012 The Android Open Source Project
+#
+# IMPORTANT: Do not create world writable files or directories.
+# This is a common source of Android security bugs.
+#
+
+on charger && property:ro.boot.mdump=1 && property:ro.debuggable=1
+    #stop surfaceflinger
+    #start console
+    setprop vendor.debug.mdump 1
+    setprop vendor.debug.ramdump.start 0
+
+on property:vendor.debug.mdump=1
+    write /proc/sys/vm/min_free_kbytes 32768
+    trigger post-fs
+    trigger late-fs
+    trigger post-fs-data
+    write /proc/bootprof "INIT:eMMC:Mount_START"
+    # This should work for both encrypted/uncrypted data partition
+    mount_all /vendor/etc/fstab.mdump
+    write /proc/bootprof "INIT:eMMC:Mount_END"
+
+#ramdump handling service
+service dump-ramdump /vendor/bin/dump-ramdump.sh
+    disabled
+    user system
+    group root system
+    oneshot
+
+on defaultcrypto && property:vendor.debug.mdump=1
+   setprop vendor.debug.ramdump.start 1
+
+on nonencrypted && property:vendor.debug.mdump=1
+   stop camerahalserver
+   start dump-ramdump
+
+on post-fs-data && property:vendor.debug.ramdump.start=1
+   stop camerahalserver
+   start dump-ramdump

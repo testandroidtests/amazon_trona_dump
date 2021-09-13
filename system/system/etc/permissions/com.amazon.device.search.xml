@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.amazon.usearchmanager" file="/system/framework/com.amazon.device.search.jar"/>
+</permissions>

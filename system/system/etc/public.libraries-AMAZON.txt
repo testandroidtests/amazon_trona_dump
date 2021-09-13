@@ -1,0 +1,2 @@
+libheresdk.AMAZON.so
+libaudiostream_jni_v2_fireos.AMAZON.so

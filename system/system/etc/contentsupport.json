@@ -1,0 +1,2987 @@
+{
+    "masterVersion": "2021-02-04T13:53:43Z", 
+    "supportPacks": [
+        {
+            "name": "readingfonts", 
+            "bundles": [
+                {
+                    "files": [
+                        "Caecilia.ttf", 
+                        "Caecilia-Italic.ttf", 
+                        "Caecilia-Bold.ttf", 
+                        "Caecilia-BoldItalic.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "Caecilia.ttf-displayname", 
+                            "value": "Caecilia"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia.ttf-family", 
+                            "value": "Caecilia Regular"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Italic.ttf-displayname", 
+                            "value": "Caecilia"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Italic.ttf-family", 
+                            "value": "Caecilia Regular"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Italic.ttf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Bold.ttf-displayname", 
+                            "value": "Caecilia"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Bold.ttf-family", 
+                            "value": "Caecilia Regular"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Bold.ttf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-BoldItalic.ttf-displayname", 
+                            "value": "Caecilia"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-BoldItalic.ttf-family", 
+                            "value": "Caecilia Regular"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-BoldItalic.ttf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "Baskerville.ttf", 
+                        "Baskerville-Italic.ttf", 
+                        "Baskerville-Bold.ttf", 
+                        "Baskerville-BoldItalic.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "Baskerville.ttf-displayname", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville.ttf-family", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Italic.ttf-displayname", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Italic.ttf-family", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Italic.ttf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Bold.ttf-displayname", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Bold.ttf-family", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Bold.ttf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-BoldItalic.ttf-displayname", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-BoldItalic.ttf-family", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-BoldItalic.ttf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "Palatino.ttf", 
+                        "Palatino-Italic.ttf", 
+                        "Palatino-Bold.ttf", 
+                        "Palatino-BoldItalic.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "Palatino.ttf-displayname", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino.ttf-family", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Italic.ttf-displayname", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Italic.ttf-family", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Italic.ttf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Bold.ttf-displayname", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Bold.ttf-family", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Bold.ttf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-BoldItalic.ttf-displayname", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-BoldItalic.ttf-family", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-BoldItalic.ttf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-tablet-fonts/unknown/1/packs/LSS-signed_readingfonts.jar", 
+            "languages": [
+                "en", 
+                "de", 
+                "DE", 
+                "es", 
+                "fr", 
+                "it", 
+                "pt", 
+                "en-AU", 
+                "en-CA", 
+                "en-GB", 
+                "en-IT", 
+                "en-uk", 
+                "en-us"
+            ], 
+            "version": "2015-08-28T15:30:00Z", 
+            "type": "FONT_PACK", 
+            "size": "1272536"
+        }, 
+        {
+            "name": "jp-readingfonts", 
+            "bundles": [
+                {
+                    "files": [
+                        "TBGothicMed_213.ttf", 
+                        "TBGothicBold_213.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "TBGothicMed_213.ttf-displayname", 
+                            "value": "������������"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TBGothicMed_213.ttf-family", 
+                            "value": "TBGothic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TBGothicMed_213.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TBGothicBold_213.ttf-displayname", 
+                            "value": "������������"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TBGothicBold_213.ttf-family", 
+                            "value": "TBGothic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TBGothicBold_213.ttf-style", 
+                            "value": "Bold"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "TBMinchoMedium_213.ttf", 
+                        "TBMinchoBold_213.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "TBMinchoMedium_213.ttf-displayname", 
+                            "value": "������"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TBMinchoMedium_213.ttf-family", 
+                            "value": "TBMincho"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TBMinchoMedium_213.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TBMinchoBold_213.ttf-displayname", 
+                            "value": "������"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TBMinchoBold_213.ttf-family", 
+                            "value": "TBMincho"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TBMinchoBold_213.ttf-style", 
+                            "value": "Bold"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-tablet-fonts/unknown/1/packs/LSS-signed_jp-readingfonts.jar", 
+            "languages": [
+                "ja", 
+                "jp-JP", 
+                "jp-Jpan"
+            ], 
+            "version": "2015-08-28T16:30:00Z", 
+            "type": "FONT_PACK", 
+            "size": "19231488"
+        }, 
+        {
+            "name": "cn-readingfonts", 
+            "bundles": [
+                {
+                    "files": [
+                        "STKaiTi.ttf", 
+                        "STKaiBold.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "STKaiTi.ttf-displayname", 
+                            "value": "������"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STKaiTi.ttf-family", 
+                            "value": "STKaiti"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STKaiTi.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STKaiBold.ttf-displayname", 
+                            "value": "������"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STKaiBold.ttf-family", 
+                            "value": "STKaiti"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STKaiBold.ttf-style", 
+                            "value": "Bold"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "STHeitiMedium.ttf", 
+                        "STHeitiBold.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "STHeitiMedium.ttf-displayname", 
+                            "value": "������"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STHeitiMedium.ttf-family", 
+                            "value": "STHeiti"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STHeitiMedium.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STHeitiBold.ttf-displayname", 
+                            "value": "������"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STHeitiBold.ttf-family", 
+                            "value": "STHeiti"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STHeitiBold.ttf-style", 
+                            "value": "Bold"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "STYuanMedium.ttf", 
+                        "STYuanBold.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "STYuanMedium.ttf-displayname", 
+                            "value": "������"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STYuanMedium.ttf-family", 
+                            "value": "STZhongyuan"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STYuanMedium.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STYuanBold.ttf-displayname", 
+                            "value": "������"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STYuanBold.ttf-family", 
+                            "value": "STZhongyuan"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STYuanBold.ttf-style", 
+                            "value": "Bold"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-tablet-fonts/unknown/1/packs/LSS-signed_cn-readingfonts.jar", 
+            "languages": [
+                "zh", 
+                "zh-cn", 
+                "zh-Hans", 
+                "zh-HANS", 
+                "zh-CN"
+            ], 
+            "version": "2015-08-28T17:30:00Z", 
+            "type": "FONT_PACK", 
+            "size": "89516444"
+        }, 
+        {
+            "name": "specialfonts", 
+            "bundles": [
+                {
+                    "files": [
+                        "OpenDyslexic-Regular.otf", 
+                        "OpenDyslexic-Italic.otf", 
+                        "OpenDyslexic-Bold.otf", 
+                        "OpenDyslexic-BoldItalic.otf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Regular.otf-displayname", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Regular.otf-family", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Regular.otf-style", 
+                            "value": "Regular"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Italic.otf-displayname", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Italic.otf-family", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Italic.otf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Bold.otf-displayname", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Bold.otf-family", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Bold.otf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-BoldItalic.otf-displayname", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-BoldItalic.otf-family", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-BoldItalic.otf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-tablet-fonts/unknown/1/packs/LSS-signed_specialfonts.jar", 
+            "languages": [
+                "en", 
+                "de", 
+                "DE", 
+                "es", 
+                "fr", 
+                "it", 
+                "pt", 
+                "en-AU", 
+                "en-CA", 
+                "en-GB", 
+                "en-IT", 
+                "en-uk", 
+                "en-us"
+            ], 
+            "version": "2015-12-23T15:30:00Z", 
+            "type": "FONT_PACK", 
+            "size": "233000"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Geraint", 
+            "name": "geraint", 
+            "language": "cy-GB", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/cd026bd96d7393d54637dcd80caab6cb/ivona_cym.gbr.geraint.jar", 
+            "install_location": "tts/ivona/cym.gbr.geraint/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "167124948"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Gwyneth", 
+            "name": "gwyneth", 
+            "language": "cy-GB", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/b435de90bdb208332b84391ddd58e542/ivona_cym.gbr.gwyneth.jar", 
+            "install_location": "tts/ivona/cym.gbr.gwyneth/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "180525739"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Mads", 
+            "name": "mads", 
+            "language": "da-DK", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/8a9d1408f2bf2a04c3e8cdc29a94664a/ivona_dan.dnk.mads.jar", 
+            "install_location": "tts/ivona/dan.dnk.mads/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "223317294"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Naja", 
+            "name": "naja", 
+            "language": "da-DK", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/1db7816000dbc8be93f56debaa47a437/ivona_dan.dnk.naja.jar", 
+            "install_location": "tts/ivona/dan.dnk.naja/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "200466505"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Hans", 
+            "name": "hans", 
+            "language": "de-DE", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/96b3c769773aba33008348109c3e9e25/ivona_deu.deu.hans.jar", 
+            "install_location": "tts/ivona/deu.deu.hans/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "135131848"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Marlene", 
+            "name": "marlene", 
+            "language": "de-DE", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/2170/packs/arm/javaspec/f872d2f5e02648f2a7aa4a482b554892/ivona_deu.deu.marlene.jar", 
+            "install_location": "tts/ivona/deu.deu.marlene/", 
+            "installed_version": "", 
+            "current_version": "2019-09-28T13:26:04Z", 
+            "type": "TTS_VOICE", 
+            "size": "140860464"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Nicole", 
+            "name": "nicole", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/6962e5347805dfb8cba53a32699cbdeb/ivona_eng.aus.nicole.jar", 
+            "languages": [
+                "en-AU", 
+                "en-NZ"
+            ], 
+            "install_location": "tts/ivona/eng.aus.nicole/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "139300021"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Russell", 
+            "name": "russell", 
+            "language": "en-AU", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/38ebc27c13fe6b43af19e29fa4d3deb1/ivona_eng.aus.russell.jar", 
+            "install_location": "tts/ivona/eng.aus.russell/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "132185105"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Amy", 
+            "name": "amy", 
+            "language": "en-GB", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/3021/packs/arm/javaspec/5e5812a92306448b916face17a5e644e/ivona_eng.gbr.amy.jar", 
+            "install_location": "tts/ivona/eng.gbr.amy/", 
+            "installed_version": "", 
+            "current_version": "2020-11-27T11:13:33Z", 
+            "type": "TTS_VOICE", 
+            "size": "131979408"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Brian", 
+            "name": "brian", 
+            "language": "en-GB", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/df5868e7d274eeac82fbb1cf594a9083/ivona_eng.gbr.brian.jar", 
+            "install_location": "tts/ivona/eng.gbr.brian/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "149068844"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Raveena", 
+            "name": "raveena", 
+            "language": "en-IN", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/2203/packs/arm/javaspec/f49322fb44264030ba904cb77d5b27bc/ivona_eng.ind.raveena.jar", 
+            "install_location": "tts/ivona/eng.ind.raveena/", 
+            "installed_version": "", 
+            "current_version": "2019-10-14T09:48:35Z", 
+            "type": "TTS_VOICE", 
+            "size": "154681963"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Joey", 
+            "name": "joey", 
+            "language": "en-US", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/869957a1065e954d1a5c7953ccf158d9/ivona_eng.usa.joey.jar", 
+            "install_location": "tts/ivona/eng.usa.joey/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "143414300"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Salli", 
+            "name": "salli", 
+            "language": "en-US", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/3021/packs/arm/javaspec/902645495fe64bdc902cd5adfbabea60/ivona_eng.usa.salli.jar", 
+            "install_location": "tts/ivona/eng.usa.salli/", 
+            "installed_version": "", 
+            "current_version": "2020-11-27T11:13:33Z", 
+            "type": "TTS_VOICE", 
+            "size": "97657264"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Chantal", 
+            "name": "chantal", 
+            "language": "fr-CA", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/132fbd079f5121e16ca95d2ebce86ffc/ivona_fra.can.chantal.jar", 
+            "install_location": "tts/ivona/fra.can.chantal/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "128179648"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Céline", 
+            "name": "celine", 
+            "language": "fr-FR", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/a2027b7d77d0ab4bd50d038ef70277f2/ivona_fra.fra.celine.jar", 
+            "install_location": "tts/ivona/fra.fra.celine/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "122640505"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Mathieu", 
+            "name": "mathieu", 
+            "language": "fr-FR", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/f24a90591ce8426c1200263405b5821a/ivona_fra.fra.mathieu.jar", 
+            "install_location": "tts/ivona/fra.fra.mathieu/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "131933949"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Aditi", 
+            "name": "aditi", 
+            "language": "hi-IN", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/2160/packs/arm/javaspec/9a56887f9e864338b91f1ca82150e80e/ivona_hin.ind.aditi.jar", 
+            "install_location": "tts/ivona/hin.ind.aditi/", 
+            "installed_version": "", 
+            "current_version": "2019-09-18T09:01:43Z", 
+            "type": "TTS_VOICE", 
+            "size": "392624540"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Dóra", 
+            "name": "dora", 
+            "language": "is-IS", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/9f3a73d8617a6242a31be06d0c16f189/ivona_isl.isl.dora.jar", 
+            "install_location": "tts/ivona/isl.isl.dora/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "171123187"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Karl", 
+            "name": "karl", 
+            "language": "is-IS", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/bd8f5ccfcbb5c4e944c45ce2be8a4658/ivona_isl.isl.karl.jar", 
+            "install_location": "tts/ivona/isl.isl.karl/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "233098155"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Carla", 
+            "name": "carla", 
+            "language": "it-IT", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/766/packs/arm/javaspec/5d08563796e4b4a6a2e8c7681972cae1/ivona_ita.ita.carla.jar", 
+            "install_location": "tts/ivona/ita.ita.carla/", 
+            "installed_version": "", 
+            "current_version": "2017-12-04T16:58:06Z", 
+            "type": "TTS_VOICE", 
+            "size": "139210956"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Giorgio", 
+            "name": "giorgio", 
+            "language": "it-IT", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/729e7b2833f09d72bd70274ddb5f27db/ivona_ita.ita.giorgio.jar", 
+            "install_location": "tts/ivona/ita.ita.giorgio/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "127758762"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Lotte", 
+            "name": "lotte", 
+            "language": "nl-NL", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/e95dd5ec07dfae604d08fcc493b9274a/ivona_nld.nld.lotte.jar", 
+            "install_location": "tts/ivona/nld.nld.lotte/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "156199792"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Ruben", 
+            "name": "ruben", 
+            "language": "nl-NL", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/644f5cc1c9311982f3a8c4b64a889d81/ivona_nld.nld.ruben.jar", 
+            "install_location": "tts/ivona/nld.nld.ruben/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "132195752"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Liv", 
+            "name": "liv", 
+            "language": "nb-NO", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/5891f8dc6b60b9a9550819a8bd3f2d98/ivona_nob.nor.liv.jar", 
+            "install_location": "tts/ivona/nob.nor.liv/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "186484298"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Agnieszka", 
+            "name": "agnieszka", 
+            "language": "pl-PL", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/ad787b83032a0cff0c6a3954e8eae5e4/ivona_pol.pol.agnieszka.jar", 
+            "install_location": "tts/ivona/pol.pol.agnieszka/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "150603833"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Ewa", 
+            "name": "ewa", 
+            "language": "pl-PL", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/1e5f6b30d6429416aac4c1a84c23e795/ivona_pol.pol.ewa.jar", 
+            "install_location": "tts/ivona/pol.pol.ewa/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "146594860"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Jacek", 
+            "name": "jacek", 
+            "language": "pl-PL", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/708fb2d5df97e9c8e87afd68675e90f2/ivona_pol.pol.jacek.jar", 
+            "install_location": "tts/ivona/pol.pol.jacek/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "29573211"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Jan", 
+            "name": "jan", 
+            "language": "pl-PL", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/1f4a618231208707efbd0c85bbebf2b1/ivona_pol.pol.jan.jar", 
+            "install_location": "tts/ivona/pol.pol.jan/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "30095556"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Maja", 
+            "name": "maja", 
+            "language": "pl-PL", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/bef03bb582317eba8671d061d5182147/ivona_pol.pol.maja.jar", 
+            "install_location": "tts/ivona/pol.pol.maja/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "49996242"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Ricardo", 
+            "name": "ricardo", 
+            "language": "pt-BR", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/8a44721cb38991d4a2cc0180dce8a2ff/ivona_por.bra.ricardo.jar", 
+            "install_location": "tts/ivona/por.bra.ricardo/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "128918441"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Vitória", 
+            "name": "vitoria", 
+            "language": "pt-BR", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/766/packs/arm/javaspec/c6b68cb2afdbac50b101623f58541f69/ivona_por.bra.vitoria.jar", 
+            "install_location": "tts/ivona/por.bra.vitoria/", 
+            "installed_version": "", 
+            "current_version": "2017-12-04T16:58:07Z", 
+            "type": "TTS_VOICE", 
+            "size": "139252640"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Cristiano", 
+            "name": "cristiano", 
+            "language": "pt-PT", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/b94112753b43d8067d1969448c198fa2/ivona_por.prt.cristiano.jar", 
+            "install_location": "tts/ivona/por.prt.cristiano/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "156969805"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Inês", 
+            "name": "ines", 
+            "language": "pt-PT", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/08a18a07d25a4845e542e853c46cb398/ivona_por.prt.ines.jar", 
+            "install_location": "tts/ivona/por.prt.ines/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "136225848"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Carmen", 
+            "name": "carmen", 
+            "language": "ro-RO", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/7469cb2b055df8a1cb0cc9295e075725/ivona_ron.rou.carmen.jar", 
+            "install_location": "tts/ivona/ron.rou.carmen/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "31200221"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Maxim", 
+            "name": "maxim", 
+            "language": "ru-RU", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/c3b0f0f4f14d9cc8d99f4bb5984b52c8/ivona_rus.rus.maxim.jar", 
+            "install_location": "tts/ivona/rus.rus.maxim/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "186230278"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Tatyana", 
+            "name": "tatyana", 
+            "language": "ru-RU", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/71a96121b8d382b5213a984650dccbf3/ivona_rus.rus.tatyana.jar", 
+            "install_location": "tts/ivona/rus.rus.tatyana/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "165339405"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Conchita", 
+            "name": "conchita", 
+            "language": "es-ES", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/2170/packs/arm/javaspec/5b9a9714128c429dbc0ea6bd4f83f815/ivona_spa.esp.conchita.jar", 
+            "install_location": "tts/ivona/spa.esp.conchita/", 
+            "installed_version": "", 
+            "current_version": "2019-09-28T13:26:04Z", 
+            "type": "TTS_VOICE", 
+            "size": "128779553"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Enrique", 
+            "name": "enrique", 
+            "language": "es-ES", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/7698401a91ffc4f18a865a264a26a639/ivona_spa.esp.enrique.jar", 
+            "install_location": "tts/ivona/spa.esp.enrique/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "96499537"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Miguel", 
+            "name": "miguel", 
+            "language": "es-US", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/1eb3dc87e35f61c94bc89a416342cec8/ivona_spa.usa.miguel.jar", 
+            "install_location": "tts/ivona/spa.usa.miguel/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "104606989"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Mizuki", 
+            "name": "mizuki", 
+            "language": "ja-JP", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/794/packs/arm/javaspec/b7d362f89306a6c76e6b969430953e31/ivona_jpn.jpn.mizuki.jar", 
+            "install_location": "tts/ivona/jpn.jpn.mizuki/", 
+            "installed_version": "", 
+            "current_version": "2018-04-25T16:20:11Z", 
+            "type": "TTS_VOICE", 
+            "size": "168029573"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Penélope", 
+            "name": "penelope", 
+            "language": "es-US", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/b2873ca54693bd04c2397f14c2aecec7/ivona_spa.usa.penelope.jar", 
+            "install_location": "tts/ivona/spa.usa.penelope/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "109200996"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Astrid", 
+            "name": "astrid", 
+            "language": "sv-SE", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/f957eaf03cc2cc44d8faffc969f78620/ivona_swe.swe.astrid.jar", 
+            "install_location": "tts/ivona/swe.swe.astrid/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "192085379"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Filiz", 
+            "name": "filiz", 
+            "language": "tr-TR", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/753/packs/arm/javaspec/bd1443e2186eb61f79eebc24d5faef74/ivona_tur.tur.filiz.jar", 
+            "install_location": "tts/ivona/tur.tur.filiz/", 
+            "installed_version": "", 
+            "current_version": "2017-04-18T15:41:17Z", 
+            "type": "TTS_VOICE", 
+            "size": "165556060"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Amy", 
+            "name": "amy", 
+            "language": "en-GB", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/3021/packs/omni/javaspec/ccc7656810354ca6b69155db5bdee486/ivona_eng.gbr.amy.jar", 
+            "install_location": "tts/ivona/extensions/eng.gbr.amy/", 
+            "installed_version": "", 
+            "current_version": "2020-11-27T11:13:33Z", 
+            "type": "TTS_VOICE_EXTENSION", 
+            "size": "126218688"
+        }, 
+        {
+            "status": "NOT_YET_REQUESTED", 
+            "display_name": "Salli", 
+            "name": "salli", 
+            "language": "en-US", 
+            "storage_provider": "s3", 
+            "source_url": "lss-tts-voices/ivona/3021/packs/omni/javaspec/f659637aaedd444994fe51de884b39a1/ivona_eng.usa.salli.jar", 
+            "install_location": "tts/ivona/extensions/eng.usa.salli/", 
+            "installed_version": "", 
+            "current_version": "2020-11-27T11:13:33Z", 
+            "type": "TTS_VOICE_EXTENSION", 
+            "size": "80274705"
+        }, 
+        {
+            "display_name": "English (United Kingdom)", 
+            "name": "Amazon_1004_r1-11_ENubUNUK_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-11_ENubUNUK_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-11_ENubUNUK_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "en-GB", 
+                "en-CA", 
+                "en-NZ", 
+                "en-IN", 
+                "en-ZA", 
+                "en-HK", 
+                "en-IE", 
+                "en-MO", 
+                "en-SG"
+            ], 
+            "version": "2015-12-16T10:32:33Z", 
+            "type": "DICTIONARY", 
+            "size": "4815189"
+        }, 
+        {
+            "display_name": "Deutsch", 
+            "name": "Amazon_1004_r1-14_DEusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-14_DEusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-14_DEusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "de"
+            ], 
+            "version": "2015-12-16T10:30:43Z", 
+            "type": "DICTIONARY", 
+            "size": "5190210"
+        }, 
+        {
+            "display_name": "italiano", 
+            "name": "Amazon_1004_r1-14_ITusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-14_ITusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-14_ITusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "it"
+            ], 
+            "version": "2015-12-16T10:42:10Z", 
+            "type": "DICTIONARY", 
+            "size": "5065906"
+        }, 
+        {
+            "display_name": "français", 
+            "name": "Amazon_1004_r1-17_FRusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-17_FRusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-17_FRusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "fr"
+            ], 
+            "version": "2015-12-16T10:38:27Z", 
+            "type": "DICTIONARY", 
+            "size": "4896295"
+        }, 
+        {
+            "display_name": "español", 
+            "name": "Amazon_1004_r1-19_ESusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-19_ESusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-19_ESusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "es"
+            ], 
+            "version": "2015-12-16T10:35:00Z", 
+            "type": "DICTIONARY", 
+            "size": "4964228"
+        }, 
+        {
+            "display_name": "Afrikaans", 
+            "name": "Amazon_1004_r1-1_AFlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_AFlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-1_AFlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "af"
+            ], 
+            "version": "2015-12-16T10:26:54Z", 
+            "type": "DICTIONARY", 
+            "size": "4104659"
+        }, 
+        {
+            "display_name": "azərbaycan", 
+            "name": "Amazon_1004_r1-1_AZlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_AZlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-1_AZlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "az"
+            ], 
+            "version": "2015-12-16T10:28:06Z", 
+            "type": "DICTIONARY", 
+            "size": "4851326"
+        }, 
+        {
+            "display_name": "հայերեն", 
+            "name": "Amazon_1004_r1-1_HYlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_HYlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-1_HYlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "hy"
+            ], 
+            "version": "2015-12-16T10:41:07Z", 
+            "type": "DICTIONARY", 
+            "size": "4530184"
+        }, 
+        {
+            "display_name": "қазақ тілі", 
+            "name": "Amazon_1004_r1-1_KKlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_KKlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-1_KKlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "kk"
+            ], 
+            "version": "2015-12-16T10:43:05Z", 
+            "type": "DICTIONARY", 
+            "size": "4016322"
+        }, 
+        {
+            "display_name": "português (Brasil)", 
+            "name": "Amazon_1004_r1-1_PTusUNBR_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_PTusUNBR_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-1_PTusUNBR_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "pt-BR"
+            ], 
+            "version": "2015-12-16T10:47:17Z", 
+            "type": "DICTIONARY", 
+            "size": "5030056"
+        }, 
+        {
+            "display_name": "português (Portugal)", 
+            "name": "Amazon_1004_r1-1_PTusUNPT_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_PTusUNPT_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-1_PTusUNPT_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "pt-PT"
+            ], 
+            "version": "2015-12-16T10:47:51Z", 
+            "type": "DICTIONARY", 
+            "size": "5013332"
+        }, 
+        {
+            "display_name": "español (Latinoamérica)", 
+            "name": "Amazon_1004_r1-2_ESusUNlatam_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_ESusUNlatam_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-2_ESusUNlatam_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "es-419", 
+                "es-AR", 
+                "es-BO", 
+                "es-CL", 
+                "es-CO", 
+                "es-CR", 
+                "es-CU", 
+                "es-DO", 
+                "es-EA", 
+                "es-EC", 
+                "es-ES", 
+                "es-GQ", 
+                "es-GT", 
+                "es-HN", 
+                "es-IC", 
+                "es-MX", 
+                "es-NI", 
+                "es-PA", 
+                "es-PE", 
+                "es-PH", 
+                "es-PR", 
+                "es-PY", 
+                "es-SV", 
+                "es-US", 
+                "es-UY", 
+                "es-VE"
+            ], 
+            "version": "2015-12-16T10:35:41Z", 
+            "type": "DICTIONARY", 
+            "size": "4937043"
+        }, 
+        {
+            "display_name": "euskara", 
+            "name": "Amazon_1004_r1-2_EUlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_EUlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-2_EUlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "eu"
+            ], 
+            "version": "2015-12-16T10:36:43Z", 
+            "type": "DICTIONARY", 
+            "size": "4144526"
+        }, 
+        {
+            "display_name": "français (Canada)", 
+            "name": "Amazon_1004_r1-2_FRusUNCA_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_FRusUNCA_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-2_FRusUNCA_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "fr-CA"
+            ], 
+            "version": "2015-12-16T10:37:51Z", 
+            "type": "DICTIONARY", 
+            "size": "4874133"
+        }, 
+        {
+            "display_name": "ქართული", 
+            "name": "Amazon_1004_r1-2_KAlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_KAlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-2_KAlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ka"
+            ], 
+            "version": "2015-12-16T10:42:36Z", 
+            "type": "DICTIONARY", 
+            "size": "4256670"
+        }, 
+        {
+            "display_name": "ไทย", 
+            "name": "Amazon_1004_r1-2_THlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_THlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-2_THlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "th"
+            ], 
+            "version": "2015-12-16T10:52:29Z", 
+            "type": "DICTIONARY", 
+            "size": "4386670"
+        }, 
+        {
+            "display_name": "български", 
+            "name": "Amazon_1004_r1-3_BGlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_BGlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_BGlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "bg"
+            ], 
+            "version": "2015-12-16T10:28:41Z", 
+            "type": "DICTIONARY", 
+            "size": "4662373"
+        }, 
+        {
+            "display_name": "eesti", 
+            "name": "Amazon_1004_r1-3_ETlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_ETlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_ETlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "et"
+            ], 
+            "version": "2015-12-16T10:36:14Z", 
+            "type": "DICTIONARY", 
+            "size": "3535893"
+        }, 
+        {
+            "display_name": "فارسی", 
+            "name": "Amazon_1004_r1-3_FAlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_FAlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_FAlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "fa"
+            ], 
+            "version": "2015-12-16T10:37:12Z", 
+            "type": "DICTIONARY", 
+            "size": "4383577"
+        }, 
+        {
+            "display_name": "galego", 
+            "name": "Amazon_1004_r1-3_GLlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_GLlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_GLlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "gl"
+            ], 
+            "version": "2015-12-16T10:38:48Z", 
+            "type": "DICTIONARY", 
+            "size": "2865548"
+        }, 
+        {
+            "display_name": "íslenska", 
+            "name": "Amazon_1004_r1-3_ISlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_ISlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_ISlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "is"
+            ], 
+            "version": "2015-12-16T10:41:47Z", 
+            "type": "DICTIONARY", 
+            "size": "2217220"
+        }, 
+        {
+            "display_name": "lietuvių", 
+            "name": "Amazon_1004_r1-3_LTlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_LTlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_LTlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "lt"
+            ], 
+            "version": "2015-12-16T10:44:49Z", 
+            "type": "DICTIONARY", 
+            "size": "2871068"
+        }, 
+        {
+            "display_name": "latviešu", 
+            "name": "Amazon_1004_r1-3_LVlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_LVlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_LVlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "lv"
+            ], 
+            "version": "2015-12-16T10:45:09Z", 
+            "type": "DICTIONARY", 
+            "size": "4215217"
+        }, 
+        {
+            "display_name": "Bahasa Melayu", 
+            "name": "Amazon_1004_r1-3_MSlbUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_MSlbUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_MSlbUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ms"
+            ], 
+            "version": "2015-12-16T10:45:23Z", 
+            "type": "DICTIONARY", 
+            "size": "2168318"
+        }, 
+        {
+            "display_name": "română", 
+            "name": "Amazon_1004_r1-3_ROlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_ROlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_ROlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ro"
+            ], 
+            "version": "2015-12-16T10:48:57Z", 
+            "type": "DICTIONARY", 
+            "size": "4424361"
+        }, 
+        {
+            "display_name": "Shqip", 
+            "name": "Amazon_1004_r1-3_SQlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_SQlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_SQlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "sq"
+            ], 
+            "version": "2015-12-16T10:50:59Z", 
+            "type": "DICTIONARY", 
+            "size": "4588070"
+        }, 
+        {
+            "display_name": "Српски", 
+            "name": "Amazon_1004_r1-3_SRlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_SRlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_SRlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "sr"
+            ], 
+            "version": "2015-12-16T10:51:28Z", 
+            "type": "DICTIONARY", 
+            "size": "4722772"
+        }, 
+        {
+            "display_name": "українська", 
+            "name": "Amazon_1004_r1-3_UKlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_UKlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_UKlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "uk"
+            ], 
+            "version": "2015-12-16T10:53:13Z", 
+            "type": "DICTIONARY", 
+            "size": "4416929"
+        }, 
+        {
+            "display_name": "čeština", 
+            "name": "Amazon_1004_r1-4_CSlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_CSlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-4_CSlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "cs"
+            ], 
+            "version": "2015-12-16T10:29:32Z", 
+            "type": "DICTIONARY", 
+            "size": "2676852"
+        }, 
+        {
+            "display_name": "עברית", 
+            "name": "Amazon_1004_r1-4_HElsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_HElsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-4_HElsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "he", 
+                "iw"
+            ], 
+            "version": "2015-12-16T10:39:10Z", 
+            "type": "DICTIONARY", 
+            "size": "3401728"
+        }, 
+        {
+            "display_name": "हिंदी", 
+            "name": "Amazon_1004_r1-4_HIlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_HIlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-4_HIlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "hi"
+            ], 
+            "version": "2015-12-16T10:39:31Z", 
+            "type": "DICTIONARY", 
+            "size": "4426789"
+        }, 
+        {
+            "display_name": "hrvatski", 
+            "name": "Amazon_1004_r1-4_HRlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_HRlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-4_HRlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "hr"
+            ], 
+            "version": "2015-12-16T10:40:29Z", 
+            "type": "DICTIONARY", 
+            "size": "4909429"
+        }, 
+        {
+            "display_name": "Bahasa Indonesia", 
+            "name": "Amazon_1004_r1-4_IDlbUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_IDlbUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-4_IDlbUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "id", 
+                "in"
+            ], 
+            "version": "2015-12-16T10:41:34Z", 
+            "type": "DICTIONARY", 
+            "size": "4045170"
+        }, 
+        {
+            "display_name": "slovenčina", 
+            "name": "Amazon_1004_r1-4_SKlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_SKlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-4_SKlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "sk"
+            ], 
+            "version": "2015-12-16T10:49:58Z", 
+            "type": "DICTIONARY", 
+            "size": "4517630"
+        }, 
+        {
+            "display_name": "slovenščina", 
+            "name": "Amazon_1004_r1-4_SLlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_SLlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-4_SLlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "sl"
+            ], 
+            "version": "2015-12-16T10:50:28Z", 
+            "type": "DICTIONARY", 
+            "size": "4778085"
+        }, 
+        {
+            "display_name": "tl", 
+            "name": "Amazon_1004_r1-4_TLlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_TLlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-4_TLlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "tl"
+            ], 
+            "version": "2015-12-16T10:52:48Z", 
+            "type": "DICTIONARY", 
+            "size": "3062303"
+        }, 
+        {
+            "display_name": "English", 
+            "name": "Amazon_1004_r1-57_ENubUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-57_ENubUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-57_ENubUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "en"
+            ], 
+            "version": "2015-12-16T10:33:47Z", 
+            "type": "DICTIONARY", 
+            "size": "4826182"
+        }, 
+        {
+            "display_name": "Ελληνικά", 
+            "name": "Amazon_1004_r1-5_ELusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-5_ELusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-5_ELusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "el"
+            ], 
+            "version": "2015-12-16T10:31:20Z", 
+            "type": "DICTIONARY", 
+            "size": "5054079"
+        }, 
+        {
+            "display_name": "English (Australia)", 
+            "name": "Amazon_1004_r1-5_ENubUNAU_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-5_ENubUNAU_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-5_ENubUNAU_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "en-AU"
+            ], 
+            "version": "2015-12-16T10:31:56Z", 
+            "type": "DICTIONARY", 
+            "size": "4799422"
+        }, 
+        {
+            "display_name": "Tiếng Việt", 
+            "name": "Amazon_1004_r1-5_VIlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-5_VIlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-5_VIlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "vi"
+            ], 
+            "version": "2015-12-16T10:53:39Z", 
+            "type": "DICTIONARY", 
+            "size": "4167863"
+        }, 
+        {
+            "display_name": "العربية", 
+            "name": "Amazon_1004_r1-6_ARlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_ARlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-6_ARlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ar"
+            ], 
+            "version": "2015-12-16T10:27:30Z", 
+            "type": "DICTIONARY", 
+            "size": "5309540"
+        }, 
+        {
+            "display_name": "català", 
+            "name": "Amazon_1004_r1-6_CAlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_CAlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-6_CAlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ca"
+            ], 
+            "version": "2015-12-16T10:29:11Z", 
+            "type": "DICTIONARY", 
+            "size": "4579878"
+        }, 
+        {
+            "display_name": "dansk", 
+            "name": "Amazon_1004_r1-6_DAusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_DAusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-6_DAusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "da"
+            ], 
+            "version": "2015-12-16T10:30:04Z", 
+            "type": "DICTIONARY", 
+            "size": "4871055"
+        }, 
+        {
+            "display_name": "Nederlands", 
+            "name": "Amazon_1004_r1-6_NLusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_NLusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-6_NLusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "nl"
+            ], 
+            "version": "2015-12-16T10:45:46Z", 
+            "type": "DICTIONARY", 
+            "size": "5283938"
+        }, 
+        {
+            "display_name": "norsk", 
+            "name": "Amazon_1004_r1-6_NOusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_NOusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-6_NOusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "no", 
+                "nb"
+            ], 
+            "version": "2015-12-16T10:46:20Z", 
+            "type": "DICTIONARY", 
+            "size": "5007691"
+        }, 
+        {
+            "display_name": "polski", 
+            "name": "Amazon_1004_r1-6_PLusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_PLusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-6_PLusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "pl"
+            ], 
+            "version": "2015-12-16T10:46:52Z", 
+            "type": "DICTIONARY", 
+            "size": "4941429"
+        }, 
+        {
+            "display_name": "svenska", 
+            "name": "Amazon_1004_r1-6_SVusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_SVusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-6_SVusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "sv"
+            ], 
+            "version": "2015-12-16T10:51:59Z", 
+            "type": "DICTIONARY", 
+            "size": "5014418"
+        }, 
+        {
+            "display_name": "русский", 
+            "name": "Amazon_1004_r1-8_RUusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-8_RUusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-8_RUusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ru"
+            ], 
+            "version": "2015-12-16T10:49:27Z", 
+            "type": "DICTIONARY", 
+            "size": "5057627"
+        }, 
+        {
+            "display_name": "português", 
+            "name": "Amazon_1004_r1-9_PTusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-9_PTusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-9_PTusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "pt"
+            ], 
+            "version": "2015-12-16T10:48:26Z", 
+            "type": "DICTIONARY", 
+            "size": "4975263"
+        }, 
+        {
+            "display_name": "Türkçe", 
+            "name": "Amazon_1004_r1-2_TRlsUN_xt9_HC.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_TRlsUN_xt9_HC.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-2_TRlsUN_xt9_HC.ldb.jar", 
+            "languages": [
+                "tr"
+            ], 
+            "version": "2015-12-16T10:52:52Z", 
+            "type": "DICTIONARY", 
+            "size": "840139"
+        }, 
+        {
+            "display_name": "suomi", 
+            "name": "Amazon_1004_r1-3_FIusUN_xt9_HC.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_FIusUN_xt9_HC.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-3_FIusUN_xt9_HC.ldb.jar", 
+            "languages": [
+                "fi"
+            ], 
+            "version": "2015-12-16T10:37:19Z", 
+            "type": "DICTIONARY", 
+            "size": "950006"
+        }, 
+        {
+            "display_name": "magyar", 
+            "name": "Amazon_1004_r1-4_HUlsUN_xt9_HC.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_HUlsUN_xt9_HC.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1004_r1-4_HUlsUN_xt9_HC.ldb.jar", 
+            "languages": [
+                "hu"
+            ], 
+            "version": "2015-12-16T10:40:41Z", 
+            "type": "DICTIONARY", 
+            "size": "1446726"
+        }, 
+        {
+            "display_name": "ગુજરાતી", 
+            "name": "Amazon_1003_r1-4_GUlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1003_r1-4_GUlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1003_r1-4_GUlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "gu"
+            ], 
+            "version": "2015-12-28T13:34:20Z", 
+            "type": "DICTIONARY", 
+            "size": "4918884"
+        }, 
+        {
+            "display_name": "मराठी", 
+            "name": "Amazon_1003_r1-4_MRlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1003_r1-4_MRlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1003_r1-4_MRlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "mr", 
+                "mr-IN"
+            ], 
+            "version": "2015-12-28T13:33:46Z", 
+            "type": "DICTIONARY", 
+            "size": "4759468"
+        }, 
+        {
+            "display_name": "தமிழ்", 
+            "name": "Amazon_1003_r1-4_TAlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1003_r1-4_TAlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1003_r1-4_TAlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ta", 
+                "ta-IN"
+            ], 
+            "version": "2015-12-28T13:35:36Z", 
+            "type": "DICTIONARY", 
+            "size": "5058592"
+        }, 
+        {
+            "display_name": "മലയാളം", 
+            "name": "Amazon_1003_r1-5_MLlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1003_r1-5_MLlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/nuance/1/packs/LSS-signed_Amazon_1003_r1-5_MLlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ml", 
+                "ml-IN"
+            ], 
+            "version": "2015-12-28T13:34:54Z", 
+            "type": "DICTIONARY", 
+            "size": "5063087"
+        }, 
+        {
+            "display_name": "Japanese iWnn dictionary", 
+            "name": "iwnn-ja-dict", 
+            "bundles": [
+                {
+                    "files": [
+                        "libnjkaomoji.so", 
+                        "libnjucustomja.so", 
+                        "libnjugengou.so", 
+                        "libnjfzk.so", 
+                        "libnjcon.so", 
+                        "libnjaddress.so", 
+                        "libnjtan.so", 
+                        "libnjubase1_corr.so", 
+                        "libnjexyomi_plus.so", 
+                        "libnjubase2_corr.so", 
+                        "libnjubase2.so", 
+                        "libnjname.so", 
+                        "lib_dic_morphem_ja_JP.conf.so", 
+                        "lib_correct_options_ja_JP_50key_vertical.conf.so", 
+                        "libnjubase1.so", 
+                        "libnjemoji.so", 
+                        "lib_correct_options_ja_JP_qwertykey_tablet.conf.so", 
+                        "lib_correct_options_ja_JP_qwertykey_mobile.conf.so", 
+                        "libnjexyomi.so", 
+                        "lib_dic_ja_JP.conf.so", 
+                        "lib_correct_options_ja_JP_12key.conf.so", 
+                        "lib_correct_options_ja_JP_50key_horizontal.conf.so"
+                    ], 
+                    "path": "/dictionaries/iwnn_ja/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "OSK"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "OSK/2/packs/LSS-signed_jajp_dic.jar", 
+            "languages": [
+                "ja"
+            ], 
+            "bucket_name": "lss-iwnn-dictionaries", 
+            "version": "2019-04-08A", 
+            "type": "DICTIONARY", 
+            "size": "15752813"
+        }, 
+        {
+            "display_name": "English iWnn dictionary", 
+            "name": "iwnn-en-dict", 
+            "bundles": [
+                {
+                    "files": [
+                        "libennjcon.so", 
+                        "libennjubase1gb.so", 
+                        "lib_correct_options_en_USUK_12key.conf.so", 
+                        "libennjubase1gb.corr.so", 
+                        "libennjubase2.corr.so", 
+                        "lib_correct_options_en_USUK_50key.conf.so", 
+                        "lib_correct_options_en_USUK_qwertykey.conf.so", 
+                        "libennjubase2.so", 
+                        "libennjubase1.so", 
+                        "libennjubase3.so", 
+                        "libennjubase1us.corr.so", 
+                        "lib_dic_en_USUK.conf.so", 
+                        "lib_dic_en_tablet_USUK.conf.so", 
+                        "libEnjemailuri.so", 
+                        "libennjubase1us.so", 
+                        "libennjubase1.corr.so", 
+                        "libennjyomi.so", 
+                        "libennjubase3.corr.so"
+                    ], 
+                    "path": "/dictionaries/iwnn_usuk/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "OSK"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "OSK/2/packs/LSS-signed_usuk_dic.jar", 
+            "languages": [
+                "en"
+            ], 
+            "bucket_name": "lss-iwnn-dictionaries", 
+            "version": "2018-06-08A", 
+            "type": "DICTIONARY", 
+            "size": "4024740"
+        }, 
+        {
+            "display_name": "Simplified Chinese iWnn dictionary", 
+            "name": "iwnn-zh-dict", 
+            "bundles": [
+                {
+                    "files": [
+                        "libzhCNnjubase2.so", 
+                        "lib_dic_tablet_lang.conf.so", 
+                        "libzhCNnjubase1ad1.so", 
+                        "libzhCNnjcon.so", 
+                        "lib_dic_lang.conf.so", 
+                        "libzhCNnjexyomiad1.so", 
+                        "libzhCNnjubase2ad1.so", 
+                        "libzhCNnjtanad1.so", 
+                        "libzhCNnjtan.so", 
+                        "libstandardnjemailuri.so", 
+                        "libzhCNnjubase1.so", 
+                        "libpinyin_list.so", 
+                        "libzhCNnjubase3ad1.so", 
+                        "libzhCNnjexyomi.so", 
+                        "libzhCNnjubase3.so"
+                    ], 
+                    "path": "/dictionaries/iwnn_zhcn/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "OSK"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "OSK/2/packs/LSS-signed_zhcn_dic.jar", 
+            "languages": [
+                "zh"
+            ], 
+            "bucket_name": "lss-iwnn-dictionaries", 
+            "version": "2018-06-08A", 
+            "type": "DICTIONARY", 
+            "size": "14046199"
+        }, 
+        {
+            "display_name": "Traditional Chinese iWnn dictionary", 
+            "name": "iwnn-zhtw-dict", 
+            "bundles": [
+                {
+                    "files": [
+                        "libnj_zh_con.so", 
+                        "libnj_zh_tw_bopomofo_exyomi.so", 
+                        "libnj_zh_tw_bopomofo_exyomiad1.so", 
+                        "libnj_zh_tw_bopomofo_kanji_connect.so", 
+                        "libnj_zh_tw_bopomofo_list.so", 
+                        "libnj_zh_tw_bopomofo_tan.so", 
+                        "libnj_zh_tw_bopomofo_tanad1.so", 
+                        "libnj_zh_tw_bopomofo_ubase1.so", 
+                        "libnj_zh_tw_bopomofo_ubase1ad1.so", 
+                        "libnj_zh_tw_bopomofo_ubase1corr.so", 
+                        "libnj_zh_tw_bopomofo_ubase2.so", 
+                        "libnj_zh_tw_bopomofo_ubase2ad1.so", 
+                        "libnj_zh_tw_bopomofo_ubase2corr.so", 
+                        "libnj_zh_tw_cangjie_full_tan.so", 
+                        "libnj_zh_tw_cangjie_full_tanad1.so", 
+                        "libnj_zh_tw_cangjie_full_ubase1.so", 
+                        "libnj_zh_tw_cangjie_full_ubase1ad1.so", 
+                        "libnj_zh_tw_cangjie_full_ubase2.so", 
+                        "libnj_zh_tw_cangjie_full_ubase2ad1.so", 
+                        "libnj_zh_tw_cangjie_quick_tan.so", 
+                        "libnj_zh_tw_cangjie_quick_tanad1.so", 
+                        "libnj_zh_tw_cangjie_quick_ubase1.so", 
+                        "libnj_zh_tw_cangjie_quick_ubase1ad1.so", 
+                        "libnj_zh_tw_cangjie_quick_ubase2.so", 
+                        "libnj_zh_tw_cangjie_quick_ubase2ad1.so", 
+                        "libnj_zh_tw_pinyin_en_ubase.so", 
+                        "libnj_zh_tw_pinyin_exyomi.so", 
+                        "libnj_zh_tw_pinyin_exyomiad1.so", 
+                        "libnj_zh_tw_pinyin_kanji_connect.so", 
+                        "libnj_zh_tw_pinyin_list.so", 
+                        "libnj_zh_tw_pinyin_pair_list.so", 
+                        "libnj_zh_tw_pinyin_tan.so", 
+                        "libnj_zh_tw_pinyin_tanad1.so", 
+                        "libnj_zh_tw_pinyin_ubase1.so", 
+                        "libnj_zh_tw_pinyin_ubase1ad1.so", 
+                        "libnj_zh_tw_pinyin_ubase1corr.so", 
+                        "libnj_zh_tw_pinyin_ubase2.so", 
+                        "libnj_zh_tw_pinyin_ubase2ad1.so", 
+                        "libnj_zh_tw_pinyin_ubase2corr.so", 
+                        "libstandardnjemailuri.so", 
+                        "lib_dic_lang.conf_bopomofo.so", 
+                        "lib_dic_lang.conf_cangjiefull.so", 
+                        "lib_dic_lang.conf_cangjiequick.so", 
+                        "lib_dic_lang.conf_pinyin.so", 
+                        "lib_dic_tablet_lang.conf_bopomofo.so", 
+                        "lib_dic_tablet_lang.conf_cangjiefull.so", 
+                        "lib_dic_tablet_lang.conf_cangjiequick.so", 
+                        "lib_dic_tablet_lang.conf_pinyin.so"
+                    ], 
+                    "path": "/dictionaries/iwnn_zhtw/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "OSK"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "OSK/2/packs/LSS-signed_zhtw_dic.jar", 
+            "languages": [
+                "zh-TW"
+            ], 
+            "bucket_name": "lss-iwnn-dictionaries", 
+            "version": "2020-03-16T00:00:00Z", 
+            "type": "DICTIONARY", 
+            "size": "22727339"
+        }, 
+        {
+            "display_name": "Korean iWnn dictionary", 
+            "name": "iwnn-ko-dict", 
+            "bundles": [
+                {
+                    "files": [
+                        "libnj_ko_exyomi.so", 
+                        "libnj_ko_ubase1.so", 
+                        "libnj_ko_ubase2.so", 
+                        "libnj_multi_con.so", 
+                        "libstandardnjemailuri.so", 
+                        "lib_dic_lang.conf.so", 
+                        "lib_dic_tablet_lang.conf.so"
+                    ], 
+                    "path": "/dictionaries/iwnn_kokr/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "OSK"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "OSK/2/packs/LSS-signed_ko_dic.jar", 
+            "languages": [
+                "ko"
+            ], 
+            "bucket_name": "lss-iwnn-dictionaries", 
+            "version": "2020-03-16T00:00:00Z", 
+            "type": "DICTIONARY", 
+            "size": "978207"
+        }, 
+        {
+            "display_name": "Sibyl (en-US)", 
+            "name": "sibyl-lang-en-US", 
+            "bundles": [
+                {
+                    "files": [
+                        "core-deploy.json", 
+                        "decoder-deploy.json", 
+                        "decoder-deploy.so", 
+                        "lm.bin", 
+                        "vocabulary.json", 
+                        "core-deploy.so", 
+                        "librnn_model.so", 
+                        "dict.bin", 
+                        "decoder-deploy.params", 
+                        "wordid_mapping.json", 
+                        "core-deploy.params"
+                    ], 
+                    "path": "/dictionaries/sibyl_en-US_2020-11-17T22:15:17.319463", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "amazon"
+                        }
+                    ]
+                }
+            ], 
+            "storage_provider": "s3", 
+            "source_url": "lss-keyboard-dictionaries/humanio/6/packs/LSS-signed_sibyl-lang-en-US_arm64.jar", 
+            "languages": [
+                "en-US"
+            ], 
+            "version": "2020-11-17T22:15:17.319463", 
+            "type": "DICTIONARY", 
+            "size": "9936561"
+        }
+    ]
+}

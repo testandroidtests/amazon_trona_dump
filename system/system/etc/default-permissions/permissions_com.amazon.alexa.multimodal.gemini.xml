@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<!--
+    This file contains permissions to be granted by default for Gemini app.
+-->
+
+<exceptions>
+    <exception package="com.amazon.alexa.multimodal.gemini">
+      <permission name="android.permission.CAMERA" fixed="true" />
+      <permission name="android.permission.RECORD_AUDIO" fixed="true" />
+    </exception>
+</exceptions>

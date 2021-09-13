@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+   Copyright (c) 2018 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<policy>
+    <entry>
+        <user type="child" />
+        <event type="onUserSwitch"/>
+        <action type="disable"/>
+        <component name="com.amazon.paladin/.app.MMLauncherActivity"/>
+    </entry>
+    <entry>
+        <user type="child" />
+        <event type="onUserSwitch"/>
+        <action type="disable"/>
+        <component name="com.amazon.paladin"/>
+    </entry>
+    <entry>
+        <user type="adult" />
+        <event type="onUserSwitch"/>
+        <action type="disable"/>
+        <component name="com.amazon.paladin/.app.MMLauncherActivity"/>
+    </entry>
+    <entry>
+        <user type="adult" />
+        <event type="onUserSwitch"/>
+        <action type="disable"/>
+        <component name="com.amazon.paladin"/>
+    </entry>
+    <!-- Disabling ecs in secondary and child profile.-->
+    <entry>
+        <user type="child" />
+        <event type="onUserSwitch"/>
+        <action type="disable"/>
+        <component name="com.amazon.knight.ecs"/>
+    </entry>
+    <entry>
+        <user type="adult" />
+        <event type="onUserSwitch"/>
+        <action type="disable"/>
+        <component name="com.amazon.knight.ecs"/>
+    </entry>
+</policy>

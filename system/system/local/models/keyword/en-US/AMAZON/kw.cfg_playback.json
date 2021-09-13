@@ -1,0 +1,184 @@
+{
+ "keyword-orchestra": {
+  "keyword-spotters": [
+   {
+    "hmm": {
+     "search-space": {
+      "beam": 25.0,
+      "max-depth": 200,
+      "block-size": 1024
+     },
+     "bg": {
+      "type": "pryon-fst",
+      "filename": "AMAZON.bg.hclg.pfst"
+     },
+     "window-size": 6,
+     "fg": {
+      "type": "pryon-fst",
+      "filename": "AMAZON.fg.hclg.pfst"
+     }
+    },
+    "name": "AMAZON",
+    "spotter": {
+     "classification-thresholds": {
+      "escalate-threshold": 1e+37,
+      "notify-threshold": -1.55,
+      "accept-threshold": -0.95
+     },
+     "cleanup-period": 6000,
+     "hmm-thresholds": {
+      "escalate-threshold": 1e+37,
+      "notify-threshold": 0.0,
+      "accept-threshold": 0.0
+     },
+     "classification-limits": {
+      "max-per-window": 3,
+      "window-size": 100,
+      "stickiness": 0
+     },
+     "lock-period": 40,
+     "escalation-period": 200
+    },
+    "classifier": {
+     "vector-space": {
+      "vector-space-mapper": {
+       "type": "version1",
+       "version1": {}
+      },
+      "vector-space-classifier": {
+       "map": [
+        {
+         "name": "AMAZON",
+         "classifier": {
+          "normalized-vector-space-classifier": {
+           "normalizer": {
+            "scale": {
+             "filename": "AMAZON.scales"
+            },
+            "type": "scale"
+           },
+           "classifier": {
+            "svm": {
+             "probabilistic": false,
+             "filename": "AMAZON.psvm"
+            },
+            "type": "svm"
+           }
+          },
+          "type": "normalized-vector-space-classifier"
+         }
+        }
+       ],
+       "type": "map"
+      }
+     },
+     "type": "vector-space"
+    }
+   },
+   {
+    "hmm": {
+     "search-space": {
+      "beam": 25.0,
+      "max-depth": 200,
+      "block-size": 1024
+     },
+     "bg": {
+      "type": "pryon-fst",
+      "filename": "STOP.bg.hclg.pfst"
+     },
+     "fg": {
+      "type": "pryon-fst",
+      "filename": "STOP.fg.hclg.pfst"
+     }
+    },
+    "name": "STOP",
+    "spotter": {
+     "classification-thresholds": {
+      "escalate-threshold": 1e+37,
+      "notify-threshold": 1e+37,
+      "accept-threshold": 0.0
+     },
+     "cleanup-period": 6000,
+     "hmm-thresholds": {
+      "escalate-threshold": 1e+37,
+      "notify-threshold": 1e+37,
+      "accept-threshold": 0.0
+     },
+     "classification-limits": {
+      "max-per-window": 3,
+      "window-size": 100,
+      "stickiness": 0
+     },
+     "lock-period": 40,
+     "escalation-period": 200
+    },
+    "classifier": {
+     "vector-space": {
+      "vector-space-mapper": {
+       "type": "version1",
+       "version1": {}
+      },
+      "vector-space-classifier": {
+       "map": [
+        {
+         "name": "STOP",
+         "classifier": {
+          "normalized-vector-space-classifier": {
+           "normalizer": {
+            "scale": {
+             "filename": "STOP.scales"
+            },
+            "type": "scale"
+           },
+           "classifier": {
+            "svm": {
+             "probabilistic": false,
+             "filename": "STOP.psvm"
+            },
+            "type": "svm"
+           }
+          },
+          "type": "normalized-vector-space-classifier"
+         }
+        }
+       ],
+       "type": "map"
+      }
+     },
+     "type": "vector-space"
+    }
+   }
+  ],
+  "buffer-size": 200
+ },
+ "acoustic-model": {
+  "speech-pdf": -1,
+  "non-speech-pdf": -2,
+ },
+ "keyword-orchestra-monitor": {
+  "statistics": {
+   "segmentation": {
+    "histogram": {
+     "max": 5.0,
+     "size": 50,
+     "min": -5.0
+    }
+   },
+   "classification": {
+    "histogram": {
+     "max": 2.5,
+     "size": 50,
+     "min": -2.5
+    }
+   }
+  }
+ },
+ "object_type_version": 2,
+ "phone-symbol-table": {
+  "filename": "phones.txt"
+ },
+ "object_type_name": "keyword-spotter-orchestra-config",
+ "word-symbol-table": {
+  "filename": "words.shrunk.txt"
+ }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-callbacks>
+        <callback base="com.android.server.display.VendorVirtualDisplayAdapterCallback"
+            impl="com.android.server.display.AmazonDisplayManagerVirtualDisplayCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-instances>
+        <instance base="android.hardware.display.DisplayManager"
+            impl="com.amazon.android.hardware.display.AmazonDisplayManager" />
+        <instance base="android.hardware.display.DisplayManagerGlobal"
+            impl="com.amazon.android.hardware.display.AmazonDisplayManagerGlobal" />
+    </vendor-instances>
+    <vendor-managers>
+        <manager name="display"
+            base="android.hardware.display.DisplayManager"
+            impl="com.amazon.android.hardware.display.AmazonDisplayManager"
+            fetcher="CACHED" />
+    </vendor-managers>
+</fosinit>

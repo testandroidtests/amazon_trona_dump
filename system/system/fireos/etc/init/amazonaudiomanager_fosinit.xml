@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 - 2020 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.android.server.media.AmazonAudioService" />
+    </vendor-services>
+    <vendor-callbacks>
+        <callback base="com.android.providers.settings.VendorSettingsProviderCallback"
+            impl="amazon.media.AudioServiceSettingsProviderCallback" />
+        <callback base="com.android.server.audio.VendorAudioServiceCallback"
+            impl="com.amazon.android.server.media.AudioServiceCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="android.media.VendorAudioTrackCallback"
+            impl="amazon.media.AmazonAudioTrackCallback" />
+        <callback base="android.media.VendorAudioRecordCallback"
+            impl="amazon.media.AmazonAudioRecordCallback" />
+        <callback base="android.media.VendorAudioAttributesCallback"
+            impl="amazon.media.AmazonAudioAttributesCallback" />
+        <callback base="com.android.server.usb.VendorUsbAlsaManagerCallback"
+            impl="com.amazon.android.server.media.UsbAlsaManagerCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-managers>
+        <manager name="audio"
+            base="com.amazon.media.AmazonAudioManager"
+            fetcher="CACHED" />
+    </vendor-managers>
+</fosinit>

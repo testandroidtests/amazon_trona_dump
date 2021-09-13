@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.android.service.smartsuspend.SmartSuspendManagerService" />
+    </vendor-services>
+    <vendor-managers>
+        <manager name="SmartSuspend"
+            base="com.amazon.android.service.smartsuspend.SmartSuspendManager"
+            fetcher="STATIC" />
+    </vendor-managers>
+    <vendor-callbacks>
+        <callback base="com.android.server.power.VendorPowerManagerCallback"
+            impl="com.amazon.android.service.smartsuspend.SmartSuspendPowerManagerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.power.VendorNotifierCallback"
+            impl="com.amazon.android.service.smartsuspend.SmartSuspendNotifierCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="android.provider.VendorSettingsCallback"
+            impl="com.amazon.android.internal.settings.smartsuspend.SmartSuspendSettingsCallback" />
+        <callback base="com.android.server.VendorDeviceIdleControllerCallback"
+            impl="com.amazon.android.service.smartsuspend.SmartSuspendDeviceIdleControllerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.VendorAlarmManagerServiceCallback"
+            impl="com.amazon.android.service.smartsuspend.TimeChangedCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+</fosinit>

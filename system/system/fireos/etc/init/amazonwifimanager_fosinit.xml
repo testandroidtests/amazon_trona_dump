@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2020 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.android.service.AmazonWifiService" />
+    </vendor-services>
+    <vendor-callbacks>
+        <callback base="com.android.server.VendorSystemServiceManagerCallback"
+            impl="com.amazon.android.service.SystemServiceManagerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.wifi.util.VendorScanResultUtilCallback"
+            impl="com.amazon.android.service.ScanResultUtilCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.wifi.VendorWifiStateMachineCallback"
+            impl="com.android.server.wifi.AmazonWifiStateMachine"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.wifi.VendorWifiConnectivityManagerCallback"
+            impl="com.amazon.android.service.WifiConnectivityManagerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.wifi.scanner.VendorWificondScannerImplCallback"
+            impl="com.amazon.android.service.WificondScannerImplCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-managers>
+        <manager name="wifi"
+            base="android.net.wifi.WifiManager"
+            impl="com.amazon.android.service.AmazonWifiManager"
+            fetcher="CACHED" />
+    </vendor-managers>
+</fosinit>

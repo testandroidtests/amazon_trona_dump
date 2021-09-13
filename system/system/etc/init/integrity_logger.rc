@@ -1,0 +1,12 @@
+#
+# Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+
+on post-fs-data
+    mkdir /data/integrity_logger/ 0770 system system
+
+service integrity_logger /system/bin/integrity_logger
+    class late_start
+    user system
+    group system wakelock

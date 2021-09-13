@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+     PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<permissions>
+    <!-- Services in these packages are granted permission to start in the background
+         without binding app. They don't need to show a notification while starting as
+         opposed to standard AOSP behavior
+
+         Packages must be under system/priv-app/
+
+         usage:
+         <allow-in-power-save package="com.amazon.somepackagename"/> -->
+
+    <!-- com.android.providers.downloads is in power save white list.
+    In original AOSP implementation, com.android.providers.downloads uses sharedUserId="android.media"
+    and runs in android.process.media process. com.android.providers.media uses sharedUserId="android.media"
+    and runs in android.process.media process too. So the service in com.android.providers.media can be start.
+    When we change com.android.providers.downloads from android.media to android.download to support SharedAssetStorage,
+    com.android.providers.downloads does not run in android.process.media process. The services in com.android.providers.media
+    can not be started for process android.process.media is in background mode. To fix this issue, we need add
+    com.android.providers.media into power save white list.-->
+    <allow-in-power-save package="com.android.providers.media"/>
+</permissions>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (c) 2018 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<permissions>
+    <!-- By declaring the feature com.amazon.feature.recommendation_service here
+        The api PackageManager.hasSystemFeature(String feature) will
+        return true if passed the String com.amazon.feature.recommendation_service -->
+    <feature name="com.amazon.feature.recommendation_service" />
+</permissions>

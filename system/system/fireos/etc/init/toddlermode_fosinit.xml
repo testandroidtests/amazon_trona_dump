@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (c) 2019 - 2020 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit>
+    <vendor-services>
+        <service impl="com.amazon.toddlermode.ToddlerModeService" />
+    </vendor-services>
+    <vendor-callbacks>
+        <callback base="com.android.server.policy.VendorPhoneWindowManagerCallback"
+            impl="com.android.server.policy.ToddlerModePWMCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityManagerServiceCallback"
+            impl="com.android.server.am.ActivityManagerServiceCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="android.provider.VendorSettingsCallback"
+            impl="com.amazon.android.settings.toddlermode.ToddlerModeSettingsCallback" />
+        <callback base="com.android.providers.settings.VendorSettingsProviderCallback"
+            impl="com.amazon.android.settings.toddlermode.ToddlerModeSettingsProviderCallback" />
+    </vendor-callbacks>
+</fosinit>

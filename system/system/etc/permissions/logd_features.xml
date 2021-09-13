@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2016 Amazon.com, Inc. or its affiliates.  All rights reserved. -->
+<!-- This file is controlled by TARGET_USES_LOGD defined per device -->
+<!--fosmod_logging newfile-->
+<permissions>
+    <!-- By declaring the feature amazon.service.amazon_logd here
+         The api PackageManager.hasSystemFeature(String feature) will
+         return true if passed the String amazon.service.amazon_logd.
+         The feature name should be consisitent with the one used in
+         AmazonDropBoxManagerService.java
+    -->
+    <feature name="amazon.service.amazon_logd" />
+</permissions>

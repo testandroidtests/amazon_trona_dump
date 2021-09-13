@@ -1,0 +1,2 @@
+on post-fs-data
+    insmod /vendor/lib/modules/hid_ftv_bleremote.ko

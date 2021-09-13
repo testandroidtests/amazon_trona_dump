@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<library name="com.fireos.sdk.messaging" file="/system/priv-app/DeviceMessagingAndroidInternalSDK/DeviceMessagingAndroidInternalSDK.apk"/>
+<feature name="com.fireos.sdk.messaging" version="20"/>
+</permissions>

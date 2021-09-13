@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 - 2020 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-callbacks>
+        <callback base="com.android.server.am.VendorActivityStackCallback"
+            impl="com.android.server.am.EveActivityStackCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityStackSupervisorCallback"
+            impl="com.fireos.eve.EveActivityStackSupervisorCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityRecordCallback"
+            impl="com.android.server.am.EveActivityRecordCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityStarterCallback"
+            impl="com.fireos.eve.EveActivityStarterCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="android.app.VendorActivityThreadCallback"
+            impl="com.fireos.eve.EveActivityThreadCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+</fosinit>
