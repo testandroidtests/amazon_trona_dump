@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- By declaring the feature amazon.speech.sim.aotjp here
+         The api PackageManager.hasSystemFeature(String feature) will
+         return true if passed the String "amazon.speech.sim.aotjp".-->
+    <feature name="amazon.speech.sim.aotjp" />
+</permissions>

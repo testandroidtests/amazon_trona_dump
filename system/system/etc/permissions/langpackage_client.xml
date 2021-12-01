@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<library name="com.fireos.sdk.langpackage_client" file="/system/framework/langpackage-client.jar"/>
+<feature name="com.fireos.sdk.langpackage_client" version="6"/>
+</permissions>

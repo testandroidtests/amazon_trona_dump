@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WHITELIST>
+    <PerfService>
+        <Package name="com.imangi.templerun2">
+            <Activity name="Common">
+                <CMD_SET_TA_BOOST_VALUE Param1="5"/>
+            </Activity>
+        </Package>
+    </PerfService>
+</WHITELIST>

@@ -1,0 +1,14 @@
+<!--
+    This file contains dangerous permissions to be granted by default
+    for com.amazon.kindle.
+-->
+
+<exceptions>
+    <exception package="com.amazon.kindle">
+        <!-- Phone State (for Build.getSerial()) -->
+        <permission name="android.permission.READ_PHONE_STATE" fixed="true"/>
+        <!-- STORAGE -->
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="true"/>
+    </exception>
+</exceptions>

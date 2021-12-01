@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<library name="com.fireos.sdk.backup_and_restore" file="/system/priv-app/DeviceBackupAndRestoreInternalSDK-release/DeviceBackupAndRestoreInternalSDK-release.apk"/>
+<feature name="com.fireos.sdk.backup_and_restore" version="2"/>
+</permissions>

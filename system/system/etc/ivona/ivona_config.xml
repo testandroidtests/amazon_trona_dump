@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivona_config>
+  <location system="1">
+    <voice_data>/system/tts/ivona/</voice_data>
+    <voice_lib>/system/tts/ivona/</voice_lib>
+    <lex_dir load_strategy="auto">/etc/ivona/lex/</lex_dir>
+  </location>
+  <location>
+    <voice_data>/data/tts/ivona/</voice_data>
+    <voice_lib>/data/tts/ivona/</voice_lib>
+    <lex_dir load_strategy="auto">/etc/ivona/lex/</lex_dir>
+  </location>
+  <location notify_unused="1">
+    <voice_data>/data/securedStorageLocation/com.amazon.providers.contentsupport/tts/ivona/</voice_data>
+    <voice_lib>/data/securedStorageLocation/com.amazon.providers.contentsupport/tts/ivona/</voice_lib>
+    <lex_dir load_strategy="auto">/etc/ivona/lex/</lex_dir>
+  </location>
+</ivona_config>

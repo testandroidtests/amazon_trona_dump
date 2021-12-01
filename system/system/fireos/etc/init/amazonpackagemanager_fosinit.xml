@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.android.service.pm.AmazonPackageManagerService" />
+    </vendor-services>
+    <vendor-callbacks>
+        <callback base="com.android.server.pm.VendorPackageManagerCallback"
+            impl="com.amazon.android.service.pm.PermissionToUsesPermissionCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.pm.VendorPackageManagerCallback"
+            impl="com.amazon.android.service.pm.AmazonPackageManagerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.pm.VendorPackageManagerCallback"
+            impl="com.amazon.android.service.pm.CleanUpDalvikCacheCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.pm.VendorPackageStateControllerCallback"
+            impl="com.amazon.android.service.pm.ControlPackageStateCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-instances>
+        <instance base="android.content.pm.PackageManager"
+            impl="amazon.content.pm.AmazonPackageManagerImpl" />
+        <instance base="android.content.pm.PackageStats"
+            impl="amazon.content.pm.AmazonPackageStats" />
+    </vendor-instances>
+</fosinit>

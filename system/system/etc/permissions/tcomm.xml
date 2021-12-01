@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<library name="com.fireos.sdk.tcomm" file="/system/priv-app/com.amazon.communication/com.amazon.communication.apk"/>
+<feature name="com.fireos.sdk.tcomm" version="33"/>
+</permissions>

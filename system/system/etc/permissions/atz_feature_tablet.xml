@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<permissions>
+    <!-- These are the features for Tablets in ATZ-->
+    <feature name="com.amazon.feature.atz_prediction_on_wifi_connect" />
+    <feature name="com.amazon.feature.atz_prediction_on_user_preference" />
+    <feature name="com.amazon.feature.atz_show_tz_change_notification" />
+</permissions>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.server.UsageStats.AmazonUsageStatsService" />
+    </vendor-services>
+    <vendor-callbacks>
+        <callback base="com.android.server.am.VendorActivityManagerServiceCallback"
+            impl="com.amazon.server.UsageStats.AmazonActivityManagerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.connectivity.VendorNetworkMonitorCallback"
+            impl="com.amazon.server.UsageStats.AmazonNetworkMonitorCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.policy.VendorPhoneWindowManagerCallback"
+            impl="com.amazon.server.UsageStats.AmazonWindowEventsCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.dreams.VendorDreamControllerCallback"
+            impl="com.amazon.server.UsageStats.AmazonDreamStateCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.VendorWiredAccessoryManagerCallback"
+            impl="com.amazon.server.UsageStats.AmazonWiredAccessoryManagerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityRecordCallback"
+            impl="com.amazon.usagestats.PipMetricsVendorCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityRecordCallback"
+            impl="com.amazon.server.UsageStats.AmazonActivityRecordCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityDisplayCallback"
+            impl="com.amazon.server.UsageStats.AmazonActivityDisplayCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.wm.VendorWindowManagerServiceCallback"
+            impl="com.android.server.wm.AmazonUsageStatsWindowManagerCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-managers>
+        <manager name="amazonusagestatsservice"
+            base="com.amazon.UsageStats.AmazonUsageStatsManager"
+            fetcher="CACHED" />
+    </vendor-managers>
+</fosinit>

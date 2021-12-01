@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 - 2020 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.android.server.wm.AmazonWindowManagerService" />
+    </vendor-services>
+    <vendor-callbacks>
+        <callback base="com.android.server.policy.VendorPhoneWindowManagerCallback"
+            impl="com.android.server.policy.AmazonWindowManagerPwmCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.wm.VendorWindowManagerServiceCallback"
+            impl="com.android.server.wm.AmazonVendorWindowManagerServiceCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.wm.VendorPinnedStackControllerCallback"
+            impl="com.android.server.wm.AmazonPinnedStackControllerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="android.view.VendorViewRootImplCallback"
+            impl="amazon.view.AmazonVendorViewRootImplCallback" />
+    </vendor-callbacks>
+    <vendor-managers>
+        <manager name="window"
+            base="android.view.WindowManagerImpl"
+            impl="amazon.view.AmazonWindowManagerImpl"
+            fetcher="CACHED" />
+    </vendor-managers>
+</fosinit>

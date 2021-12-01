@@ -1,0 +1,5 @@
+<eps> 0
+ALEXA 1
+STOP 2
+_BG_WORD_[NS] 3
+_BG_WORD_[S] 4

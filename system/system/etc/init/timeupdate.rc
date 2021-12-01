@@ -1,0 +1,13 @@
+#
+# Copyright (c) 2018  Amazon.com, Inc. or its affiliates.  All rights reserved.
+#
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+service time_update /system/bin/time_update.sh
+    user root
+    group system shell
+    disabled
+    oneshot
+
+on load_persist_props_action
+    start time_update

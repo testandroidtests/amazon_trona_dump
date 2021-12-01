@@ -1,0 +1,11 @@
+#
+# Copyright (c) 2018 - 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+# Shipmode actions
+on early-boot && property:persist.sys.shipmode.action=1
+    setprop persist.sys.shipmode.action 2
+    rm  /data/system/users/0/settings_secure.xml
+    rm  /data/system/users/0/settings_system.xml
+    rm  /data/system/users/0/settings_global.xml
+

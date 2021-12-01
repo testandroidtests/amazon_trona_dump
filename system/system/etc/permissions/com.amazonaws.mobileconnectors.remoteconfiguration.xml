@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.amazonaws.mobileconnectors.remoteconfiguration" file="/system/framework/AWSRemoteConfigurationAndroidClient.jar"/>
+</permissions>

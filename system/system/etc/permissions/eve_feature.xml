@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016 - 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<permissions>
+    <!-- By declaring the feature fireos.software.eve here, the api
+         PackageManager.hasSystemFeature(String feature) will
+         return true if passed one of the following names. -->
+    <feature name="fireos.software.eve" />
+    <feature name="fireos.software.eve.audio" />
+    <feature name="fireos.software.eve.autotrace" />
+    <feature name="fireos.software.eve.fluidity" />
+    <feature name="fireos.software.eve.launch" />
+    <feature name="fireos.software.eve.memory" />
+    <feature name="fireos.software.eve.service" />
+</permissions>

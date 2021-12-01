@@ -1,0 +1,22 @@
+<!--
+    permissions_com.amazon.cardinal.xml
+
+    Copyright (c) 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+    PROPRIETARY/CONFIDENTIAL
+
+    Use is subject to license terms.
+-->
+<!--
+    This file contains dangerous permissions to be granted by default
+    for amazon maps client.
+-->
+
+<exceptions>
+    <exception package="com.amazon.cardinal">
+
+        <!-- AUDIO -->
+        <permission name="android.permission.RECORD_AUDIO" fixed="true"/>
+
+    </exception>
+</exceptions>

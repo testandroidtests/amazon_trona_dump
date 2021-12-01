@@ -1,0 +1,5 @@
+libMcClient.so
+libMcRegistry.so
+libtflite_mtk.so
+libtflite_mtk_static.so
+libOpenCL.so

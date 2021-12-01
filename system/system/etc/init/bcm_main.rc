@@ -1,0 +1,11 @@
+#
+# Copyright (c) 2020 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+
+on post-fs-data
+    mkdir /data/vendor/bcm/ 0770 system system
+
+service bcm_main /system/bin/bcm_main
+    class late_start
+    group system

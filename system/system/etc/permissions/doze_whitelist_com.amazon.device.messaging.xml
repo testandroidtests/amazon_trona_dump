@@ -1,0 +1,4 @@
+<permissions>
+    <!-- Whitelisted app allows internet access in the background when in Doze idle -->
+    <allow-in-power-save package="com.amazon.device.messaging"/>
+</permissions>

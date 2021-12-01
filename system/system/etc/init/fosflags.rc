@@ -1,0 +1,4 @@
+service fosflags /init.fosflags.sh
+    class core
+    oneshot
+    seclabel u:r:fosflags:s0

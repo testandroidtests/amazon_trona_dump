@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--
+    This file contains dangerous permissions to be granted by default
+    for calendar provider.
+-->
+<exceptions>
+    <exception package="com.android.providers.calendar">
+        <permission name="android.permission.READ_CALENDAR" fixed="true" />
+        <permission name="android.permission.WRITE_CALENDAR" fixed="true" />
+        <permission name="android.permission.GET_ACCOUNTS" fixed="true" />
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true" />
+    </exception>
+</exceptions>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2020 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.android.service.amazonprofile.AmazonProfileService" />
+    </vendor-services>
+    <vendor-managers>
+        <manager name="amazonprofileservice"
+                 base="com.amazon.android.amazonprofile.AmazonProfileManager"
+                 fetcher="CACHED" />
+    </vendor-managers>
+    <vendor-callbacks>
+        <callback base="com.android.server.power.VendorPowerManagerCallback"
+                  impl="com.amazon.android.service.amazonprofile.AmazonProfileServiceCallback"
+                  classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-callbacks>
+        <callback base="com.android.server.am.VendorActivityManagerServiceCallback"
+                  impl="com.amazon.android.service.amazonprofile.AmazonProfileServiceActivityManagerCallback"
+                  classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-callbacks>
+        <callback base="com.android.server.am.VendorActiveServicesCallback"
+                  impl="com.android.server.am.ProfileVendorActiveServicesCallback"
+                  classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+</fosinit>

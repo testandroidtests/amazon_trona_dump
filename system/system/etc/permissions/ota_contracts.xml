@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<library name="com.fireos.sdk.ota_contracts" file="/system/priv-app/DeviceSoftwareOTAContracts/DeviceSoftwareOTAContracts.apk"/>
+<feature name="com.fireos.sdk.ota_contracts" version="3"/>
+</permissions>

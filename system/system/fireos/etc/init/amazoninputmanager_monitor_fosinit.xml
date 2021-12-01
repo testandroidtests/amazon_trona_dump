@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.android.internal.server.input.AmazonInputManagerService" />
+    </vendor-services>
+    <vendor-callbacks>
+        <callback base="com.android.server.input.VendorInputManagerServiceCallback"
+            impl="com.amazon.android.internal.server.input.monitor.InputFilterMonitorInputManagerServiceCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-callbacks>
+        <callback base="com.android.server.input.VendorInputManagerServiceCallback"
+            impl="com.amazon.android.internal.server.input.kcmoverlay.KCMOverlayInputManagerServiceCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-instances>
+         <instance base="android.view.InputDevice"
+            impl="com.amazon.android.view.AmazonInputDevice" />
+    </vendor-instances>
+    <vendor-managers>
+         <manager name="amazon_input"
+            base="com.amazon.android.hardware.input.AmazonInputManager"
+            fetcher="CACHED" />
+        <manager name="amazon_keyevent"
+            base="com.amazon.android.server.amazoninputmanager.AmazonKeyEventManager"
+            fetcher="CACHED" />
+    </vendor-managers>
+</fosinit>

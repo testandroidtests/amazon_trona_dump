@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<permissions>
+    <!-- This feature provides ability for a gaming application to control alexa
+    state as on/off when it is in game mode. By default, Alexa will always
+    remain unavailable when the system enters game mode.
+
+    This is being introduced for Luna app where we want alexa to remain available
+    when the user is in lobby and actual game play is yet to begin.
+
+    By declaring the feature com.amazon.gamemode.alexa_in_game_mode here, the api
+    PackageManager.hasSystemFeature(String feature) will
+    return true if passed this name. -->
+    <feature name="com.amazon.gamemode.alexa_in_game_mode" />
+</permissions>

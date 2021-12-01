@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Identifier for all devices that runs Fire OS  -->
+<permissions>
+    <feature name="com.amazon.software.fireos" />
+</permissions>

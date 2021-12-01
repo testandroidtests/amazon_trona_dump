@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2020 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.amazon.com"
+         xsi:schemaLocation="">
+    <vendor-managers>
+        <manager name="amazonnetworkmanager"
+                 base="com.amazon.android.service.networkmanager.AmazonNetworkManager"
+                 fetcher="CACHED"/>
+    </vendor-managers>
+    <vendor-services>
+        <service impl="com.amazon.android.service.amazonnetworkservice.AmazonNetworkService" />
+    </vendor-services>
+</fosinit>

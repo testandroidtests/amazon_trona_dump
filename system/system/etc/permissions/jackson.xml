@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<library name="com.fireos.sdk.jackson" file="/system/priv-app/amazon.jackson-19/amazon.jackson-19.apk"/>
+<feature name="com.fireos.sdk.jackson" version="1"/>
+</permissions>

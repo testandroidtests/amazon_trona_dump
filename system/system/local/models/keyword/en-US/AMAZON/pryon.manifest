@@ -1,0 +1,14 @@
+{
+    "checksum":    "checksum.txt",
+    "default_model_name":    "pryon",
+    "models":    {
+        "playback":    {
+            "config_file_path":    "playback.config"
+        },
+        "pryon":    {
+            "config_file_path":    "pryon.inc"
+        }
+    },
+    "object_type_name":    "ModelSetManifest",
+    "object_type_version":    1
+}

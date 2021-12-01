@@ -1,0 +1,4 @@
+# Create the crashreport directory with system ownership so that BootReceiver
+# can read out the logs data and save to dropbox with DropBoxManager
+on post-fs-data
+    mkdir /data/vendor/crashreport 0771 system system

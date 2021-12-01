@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--
+    This file contains dangerous permissions to be granted by default
+    for h2settingsfortablet app.
+-->
+<exceptions>
+    <exception package="com.amazon.h2settingsfortablet">
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true" />
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="true" />
+    </exception>
+</exceptions>

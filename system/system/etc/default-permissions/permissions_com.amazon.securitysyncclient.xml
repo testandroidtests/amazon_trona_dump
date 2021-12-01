@@ -1,0 +1,11 @@
+<!--
+    This file contains dangerous permissions to be granted by default
+    for security sync client Rel apk.
+-->
+
+<exceptions>
+    <exception package="com.amazon.securitysyncclient">
+        <!-- STORAGE -->
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true"/>
+    </exception>
+</exceptions>

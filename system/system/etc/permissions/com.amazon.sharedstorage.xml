@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ com.amazon.sharedstorage.xml
+  ~
+  ~ Copyright (c) 2016 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+  ~
+  ~ PROPRIETARY/CONFIDENTIAL
+  ~
+  ~ Use is subject to license terms.
+  -->
+
+<permissions>
+    <permission name="amazon.permission.SHARED_STORAGE_WRITE">
+        <group gid="vendor_amazon_gid" />
+    </permission>
+</permissions>
