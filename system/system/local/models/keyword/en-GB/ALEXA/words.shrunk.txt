@@ -1,0 +1,6 @@
+<eps> 0
+ALEXA 1
+AMAZON 2
+STOP 3
+_BG_WORD_[NS] 4
+_BG_WORD_[S] 5

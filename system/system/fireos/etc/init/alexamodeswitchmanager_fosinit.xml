@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.android.modeswitch.service.AlexaModeSwitchManagerService" />
+    </vendor-services>
+    <vendor-callbacks>
+        <callback base="com.android.server.policy.VendorPhoneWindowManagerCallback"
+            impl="com.android.server.policy.AlexaModeSwitchManagerPhoneWindowManagerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.internal.policy.VendorDecorViewCallback"
+            impl="com.android.internal.policy.AlexaModeSwitchManagerDecorViewCallback" />
+        <callback base="com.android.server.VendorUiModeManagerServiceCallback"
+            impl="com.amazon.android.modeswitch.service.AlexaUiModeManagerServiceCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityManagerServiceCallback"
+            impl="com.android.server.am.AlexaModeSwitchManagerAmsCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-managers>
+        <manager name="alexa_modeswitch"
+            base="com.amazon.android.modeswitch.AlexaModeSwitchManagerImpl"
+            fetcher="CACHED" />
+    </vendor-managers>
+</fosinit>

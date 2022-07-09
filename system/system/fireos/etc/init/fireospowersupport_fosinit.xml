@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2020 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.android.server.power.FireOSPowerSupportService" />
+    </vendor-services>
+    <vendor-managers>
+        <manager name="fireospowersupportservice"
+            base="com.amazon.fireospowersupport.FireOSPowerSupport"
+            fetcher="STATIC" />
+    </vendor-managers>
+    <vendor-callbacks>
+        <callback base="com.android.server.pm.VendorUserManagerServiceCallback"
+                  impl="com.amazon.android.service.pm.StandbyUserManagerServiceCallback"
+                  classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.usage.VendorUsageStatsServiceCallback"
+                  impl="com.android.server.usage.StandbyUsageStatsServiceCallback"
+                  classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+</fosinit>

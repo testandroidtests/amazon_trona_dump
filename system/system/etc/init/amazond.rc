@@ -1,0 +1,16 @@
+#
+# Copyright (c) 2017 - 2022 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+service amazonfiled /system/bin/amazonfiled
+    class main
+    user root
+    group vendor_amazon_gid
+
+# On some products securedStorageLocation is created implicitly.  In these cases it
+# will be given the wrong permissions, so they must be modified here.
+on post-fs-data
+    mkdir /data/securedStorageLocation 0771 system vendor_amazon_gid
+    chown system vendor_amazon_gid /data/securedStorageLocation
+    chmod 771 /data/securedStorageLocation
+

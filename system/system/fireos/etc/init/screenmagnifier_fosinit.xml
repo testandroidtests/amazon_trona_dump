@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-callbacks>
+        <callback base="android.view.VendorViewRootImplCallback"
+            impl="android.view.ViewRootImplCallback" />
+        <callback base="com.android.server.accessibility.VendorMagnificationControllerCallback"
+            impl="com.android.server.accessibility.MagnificationControllerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.wm.VendorAccessibilityControllerCallback"
+            impl="com.android.server.wm.AccessibilityControllerCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.wm.VendorWindowStateCallback"
+            impl="com.android.server.wm.MagnifierWindowStateCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.wm.VendorDisplayContentCallback"
+            impl="com.android.server.wm.MagnifierDisplayContentCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+</fosinit>

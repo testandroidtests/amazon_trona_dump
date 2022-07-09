@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit>
+    <vendor-callbacks>
+        <callback base="com.android.server.VendorSystemServerCallback"
+            impl="com.amazon.android.server.InitFireOsSystemConfigCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-services>
+        <service impl="amazon.fireos.debug.FireOSDebugService" />
+    </vendor-services>
+</fosinit>

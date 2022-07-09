@@ -1,0 +1,22 @@
+<!--
+    permissions_com.amazon.platform.xml
+
+    Copyright (c) 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+    PROPRIETARY/CONFIDENTIAL
+
+    Use is subject to license terms.
+-->
+<!--
+    This file contains dangerous permissions to be granted by default
+    for amazon platform.
+-->
+
+<exceptions>
+    <exception package="com.amazon.platform">
+
+        <!-- CONTACTS -->
+        <permission name="android.permission.GET_ACCOUNTS" fixed="true"/>
+
+    </exception>
+</exceptions>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--
+    This file contains dangerous permissions to be granted by default
+    for unifiedSearchGen7 app.
+-->
+<exceptions>
+    <exception package="com.amazon.kindle.unifiedSearch">
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true" />
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="true" />
+        <permission name="android.permission.READ_CONTACTS" fixed="true" />
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" fixed="true" />
+        <permission name="android.permission.RECORD_AUDIO" fixed="true" />
+    </exception>
+</exceptions>

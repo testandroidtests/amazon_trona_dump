@@ -1,0 +1,7 @@
+#
+# Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+on post-fs-data
+    # create directory for storing autotraces
+    mkdir /data/autotrace 0771 root system

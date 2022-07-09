@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-services>
+        <service impl="com.amazon.android.server.db.AmazonDropBoxManagerService" />
+    </vendor-services>
+    <vendor-callbacks>
+        <callback base="android.provider.VendorSettingsCallback"
+            impl="com.amazon.android.settings.amazondropbox.AmazonDropboxSettings$AmazonDropboxSettingsCallback" />
+        <callback base="com.android.providers.settings.VendorSettingsProviderCallback"
+            impl="com.amazon.android.settings.amazondropbox.AmazonDropboxSettingsProviderCallback" />
+        <callback base="com.android.server.VendorDropBoxManagerServiceCallback"
+            impl="com.amazon.android.server.db.AmazonDropBoxManagerServiceCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-instances>
+        <instance base="android.os.DropBoxManager"
+            impl="amazon.os.AmazonDropboxManagerImpl" />
+        <instance base="android.os.DropBoxManager$Entry"
+            impl="amazon.os.AmazonDropboxManagerEntryImpl" />
+    </vendor-instances>
+    <vendor-managers>
+        <manager name="dropbox"
+            base="android.os.DropBoxManager"
+            impl="amazon.os.AmazonDropboxManagerImpl"
+            fetcher="CACHED" />
+    </vendor-managers>
+</fosinit>

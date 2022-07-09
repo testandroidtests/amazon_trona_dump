@@ -1,0 +1,4 @@
+<permissions>
+    <library name="amazon.speech.simjobschedulerapi"
+            file="/system/framework/SimJobSchedulerAPI.jar"/>
+</permissions>

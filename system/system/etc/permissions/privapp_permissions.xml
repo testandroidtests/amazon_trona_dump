@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (c) 2019 - 2022 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications.It allows additional grants on top of privapp-permissions-platform.xml.
+-->
+<permissions>
+    <privapp-permissions package="amazon.alexa.tablet">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="amazon.speech.sim">
+        <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="amazon.speech.wakewordservice">
+        <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.aca">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.comms.multimodaltachyonarm">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.accessorynotifier">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.advertisingidsettings">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.alexa.modeswitch">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.alexa.youtube.app">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.alta.h2clientservice">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.avod">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_FRAME_BUFFER"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.client.metrics">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_LOGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.client.metrics.api">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.cloud9">
+        <permission name="android.permission.UPDATE_DEVICE_STATS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.cloud9.kids">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.communication.discovery">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.csapp">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.dcp">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.device.backup">
+        <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.DELETE_CACHE_FILES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.device.backup.sdk.internal.library">
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.device.crashmanager">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.READ_LOGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.device.logmanager">
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_LOGS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.device.messaging">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.device.sale.service">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.device.software.ota">
+        <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+        <permission name="android.permission.CRYPT_KEEPER"/>
+        <permission name="android.permission.DELETE_CACHE_FILES"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.INSTALL_PACKAGE_UPDATES"/>
+        <permission name="android.permission.INSTALL_SELF_UPDATES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.RECOVERY"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.device.software.ota.override">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.device.sync">
+        <permission name="android.permission.DUMP"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.dp.fbcontacts">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.firelauncher">
+        <permission name="android.permission.BIND_APPWIDGET"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.frameworksettings">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.geo.client.maps">
+        <permission name="android.permission.READ_FRAME_BUFFER"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.gloria.smarthome">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.h2settingsfortablet">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.imp">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.kindle">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_FRAME_BUFFER"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.kindle.cms">
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.kindle.kso">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.kindle.otter.oobe">
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.SET_TIME_ZONE"/>
+        <permission name="android.permission.SHUTDOWN"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.kindle.otter.oobe.forced.ota">
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.kindle.unifiedSearch">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.GLOBAL_SEARCH"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.kindleautomatictimezone">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.SET_TIME_ZONE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.knight.blink">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.knight.calendar">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.kor.demo">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.RECOVERY"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.logan">
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_FRAME_BUFFER"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.media.session.monitor">
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.mp3">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.paladin">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.CONTROL_KEYGUARD"/>
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.WAKE_LOCK"/>
+        <permission name="android.permission.DISABLE_KEYGUARD"/>
+        <permission name="android.permission.WRITE_SETTINGS"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.parentalcontrols">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.photos">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.platform">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.pm">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.providers.contentsupport">
+        <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.readynowcore">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_DREAM_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.settings">
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.CRYPT_KEEPER"/>
+        <permission name="android.permission.GET_APP_OPS_STATS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.settings.systemupdates">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.shpm">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.SHUTDOWN"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.simplewifi">
+        <permission name="android.permission.UPDATE_DEVICE_STATS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.socialplatform">
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.SET_TIME_ZONE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.speechui">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.storagemanager">
+        <permission name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
+        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.MOVE_PACKAGE"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.SET_TIME"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.sync.service">
+        <permission name="android.permission.BACKUP"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.tablet.dock.settings">
+        <permission name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
+        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.MOVE_PACKAGE"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.SET_TIME"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.tabletsubscriptions">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.tahoe">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.tcomm">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.tv.ottssocompanionapp">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.unifiedshare.actionchooser">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.venezia">
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_LOGS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.weather">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.whisperlink.activityview.android">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.whisperlink.core.android">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.wifilocker">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_WIFI_CREDENTIAL"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.calendar">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.camera2">
+        <permission name="android.permission.BIND_WALLPAPER"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.email">
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.GET_APP_OPS_STATS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
+    <privapp-permissions package="com.android.providers.downloads">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MODIFY_NETWORK_ACCOUNTING"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
+    <privapp-permissions package="com.android.systemui">
+        <permission name="android.permission.BIND_WALLPAPER"/>
+        <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.audible.application.kindle">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.here.odnp.service">
+        <permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.knight.ecs">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.WRITE_DREAM_STATE"/>
+        <permission name="android.permission.MANAGE_ACTIVITY_STACKS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.kindle.rdmdeviceadmin">
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.securitysyncclient">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.UPDATE_CONFIG"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.amazon.nimh">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    </privapp-permissions>
+</permissions>
+

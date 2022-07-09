@@ -1,0 +1,14 @@
+# trona-user 9 PS7323.2828N 0023455271936 amz-p,release-keys
+- manufacturer: amazon
+- platform: mt8183
+- codename: trona
+- flavor: trona-user
+- release: 9
+- id: PS7323.2828N
+- incremental: 0023455272068
+- tags: amz-p,release-keys
+- fingerprint: Amazon/trona/trona:9/PS7323.2828N/0023455271936:user/amz-p,release-keys
+- is_ab: false
+- brand: Amazon
+- branch: trona-user-9-PS7323.2828N-0023455271936-amz-p,release-keys
+- repo: amazon_trona_dump

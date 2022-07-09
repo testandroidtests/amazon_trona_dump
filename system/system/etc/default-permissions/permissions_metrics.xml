@@ -1,0 +1,7 @@
+<exceptions>
+    <exception package="com.amazon.client.metrics">
+        <permission name="android.permission.GET_ACCOUNTS" fixed="true" />
+        <permission name="android.permission.READ_PHONE_STATE" fixed="true" />
+    </exception>
+</exceptions>
+

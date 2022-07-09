@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+   Copyright (c) 2019 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<policy>
+    <!-- Disable silk browser in child profile so that hot key for browser won't list silk browser
+     as one of the choices.-->
+    <entry>
+        <user type="child" />
+        <event type="onUserSwitch" />
+        <action type="disable" />
+        <component name="com.amazon.cloud9" />
+    </entry>
+
+    <!-- Enable family friendly browser in child profile, as its disabled by default in adult profiles -->
+    <entry>
+        <user type="child" />
+        <event type="onUserSwitch" />
+        <action type="enable" />
+        <component name="com.amazon.cloud9.kids" />
+    </entry>
+</policy>

@@ -1,0 +1,8 @@
+on post-fs-data
+    mkdir /data/vendor/charge_logger/ 0770 system system
+
+service charge_logger /vendor/bin/charge_logger
+    class late_start
+    user system
+    group system wakelock
+    oneshot

@@ -1,0 +1,6 @@
+#
+# Copyright (c) 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+on post-fs-data
+    mkdir /data/misc/cirrus 0770 system system

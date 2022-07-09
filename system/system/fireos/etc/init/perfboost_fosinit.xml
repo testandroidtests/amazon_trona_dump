@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fosinit xmlns="http://www.amazon.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.amazon.com/fireos/base/core/config/ fosinit.xsd">
+    <vendor-callbacks>
+        <callback base="com.android.server.wm.VendorDisplayContentCallback"
+            impl="com.android.server.wm.PerfBoostDisplayContentCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="android.inputmethodservice.VendorInputMethodServiceCallback"
+            impl="android.inputmethodservice.PerfBoostInputMethodServiceCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.providers.settings.VendorSettingsProviderCallback"
+            impl="com.amazon.settings.perfboost.PerfBoostSettingsProviderCallback"
+            classLoader="SYSTEMSERVER" />
+        <callback base="com.android.server.am.VendorActivityManagerServiceCallback"
+            impl="com.android.server.am.PerfBoostActivityManagerServiceCallback"
+            classLoader="SYSTEMSERVER" />
+    </vendor-callbacks>
+    <vendor-instances>
+        <instance base="amazon.app.PerfBoostBase"
+            impl="com.amazon.perfboost.PerfBoost"
+            classLoader="SYSTEMSERVER" />
+    </vendor-instances>
+</fosinit>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<library name="com.fireos.sdk.amazon_maps" file="/system/priv-app/MapsSdkV3-release/MapsSdkV3-release.apk"/>
+<feature name="com.fireos.sdk.amazon_maps" version="1"/>
+</permissions>

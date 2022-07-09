@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- By declaring the feature here
+         The api PackageManager.hasSystemFeature(String feature) will
+         return true if passed the feature name below.-->
+    <feature name="amazon.software.sim"/>
+</permissions>

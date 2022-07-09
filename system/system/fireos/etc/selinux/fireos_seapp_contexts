@@ -1,0 +1,9 @@
+user=_app seinfo=amazonapp domain=amazon_app type=app_data_file levelFrom=none
+user=_app seinfo=platform name=com.android.providers.downloads domain=priv_app type=app_data_file levelFrom=none
+user=_app seinfo=amazonapp domain=amazon_log_app name=com.amazon.client.metrics type=app_data_file levelFrom=none
+user=_app seinfo=amazonapp domain=amazon_log_app name=com.amazon.device.loganalyzer type=app_data_file levelFrom=none
+user=_app seinfo=amazonapp domain=priv_app name=com.amazon.device.software.ota type=app_data_file levelFrom=none
+user=_app seinfo=platform name=com.amazon.providers.contentsupport domain=amazon_app type=app_data_file levelFrom=none
+user=_app seinfo=serendipityapp domain=serendipity_app type=app_data_file levelFrom=user
+user=_app seinfo=platform domain=amazon_app name=com.android.camera2 type=app_data_file levelFrom=none
+user=_app seinfo=platform domain=amazon_app name=com.amazon.wallpaper type=app_data_file levelFrom=none

@@ -1,0 +1,30 @@
+#
+# Copyright (c) 2018 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+on post-fs-data
+    # Remove last_kmsg from previous boot. This replaces BootReceiver's deduplication method.
+    rm /data/system/SYSTEM_LAST_KMSG
+
+    # Collect last_kmsg - this replaces the BootReceiver mechanism,
+    # which lacks sufficient permissions with dmesg_restrict enabled
+    copy /proc/last_kmsg /data/system/SYSTEM_LAST_KMSG
+    chmod 0600 /data/system/SYSTEM_LAST_KMSG
+    chown system system /data/system/SYSTEM_LAST_KMSG
+
+    # Delete previous console-ramoops to prevent duplicates being sent on subsequent reboots.
+    rm /data/system/console-ramoops
+    rm /data/system/console-ramoops-0
+
+    # Copy console-ramoops to make it accessible by BootReceiver
+    copy /sys/fs/pstore/console-ramoops /data/system/console-ramoops
+    chmod 0600 /data/system/console-ramoops
+    chown system system /data/system/console-ramoops
+
+    # Copy console-ramoops-0 to make it accessible by BootReceiver
+    copy /sys/fs/pstore/console-ramoops-0 /data/system/console-ramoops-0
+    chmod 0600 /data/system/console-ramoops-0
+    chown system system /data/system/console-ramoops-0
+
+    # Create directory for crash reporter metadata storage
+    mkdir /data/system/crash_reporter 0700 system system

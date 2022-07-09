@@ -1,0 +1,5 @@
+<permissions>
+    <!-- Whitelisted app allows internet access in the background while in Doze idle -->
+    <allow-in-power-save-except-idle package="com.amazon.sync.service"/>
+    <allow-in-power-save-except-idle package="com.amazon.sync.provider.ipc"/>
+</permissions>

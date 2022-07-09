@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (c) 2019 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fireos-permissions>
+
+    <amzrestricted-permissions package="com.amazon.alexa.multimodal.gemini" >
+        <permission name="amazon.aosp.permission.INTERNAL_SYSTEM_WINDOW"/>
+    </amzrestricted-permissions>
+
+    <amzrestricted-permissions package="com.amazon.kindle.otter.oobe" >
+        <permission name="amazon.aosp.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+        <permission name="com.amazon.permission.SYSUI_FLAGS_QS_DISABLE"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.alta.h2clientservice" >
+        <permission name="android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+        <permission name="amazon.aosp.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.ods.kindleconnect" >
+        <permission name="com.amazon.permission.INJECT_EVENTS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.kor.demo" >
+        <permission name="amazon.aosp.permission.CLEAR_APP_USER_DATA"/>
+        <permission name="amazon.aosp.permission.REMOVE_TASKS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.logan" >
+        <permission name="amazon.aosp.permission.INJECT_EVENTS"/>
+        <permission name="com.amazon.permission.INJECT_EVENTS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.amazonlockscreentest">
+        <permission name="com.amazon.permission.RESET_PASSWORD"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.parentalcontrols" >
+        <permission name="amazon.aosp.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.kindle.starsight" >
+        <permission name="amazon.aosp.permission.NETWORK_SETTINGS" />
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.tahoe" >
+         <permission name="com.amazon.permission.CONTROL_PIP_WINDOW"/>
+    </amzrestricted-permissions>
+</fireos-permissions>

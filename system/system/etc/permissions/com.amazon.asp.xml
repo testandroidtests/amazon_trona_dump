@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.amazon.asp" file="/system/framework/aspclient.jar"/>
+    <feature name="middleware_asp" />
+</permissions>

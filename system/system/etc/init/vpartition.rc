@@ -1,0 +1,62 @@
+#
+# Copyright (c) 2018 - 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+on post-fs-data
+    # folder for image file
+    mkdir /data/vp 0700 root root
+    # mountpoint for dedicated storage
+    mkdir /data/metrics 0770 logd log
+
+on nonencrypted
+    start vpm_mount
+
+on property:vold.decrypt=trigger_restart_framework
+    start vpm_mount
+
+on property:vpartition.status.metrics=ready
+    restorecon_recursive /data/metrics/
+    chown logd log /data/metrics
+    chmod 0770 /data/metrics
+    start logd-reinitLUI
+
+# Use toybox's umount in vpartition because init's built in umount does not free loop devices
+on property:vpartition.status.metrics=unmount
+    start vpm_unmount
+
+on property:vpartition.status.metrics=corrupted
+    start vpm_remove
+
+# Mount delegated to init due to SELinux neverallow rule
+on property:vpartition.status.metrics=mount
+    # "loop@" tells mount to get an available loop device.
+    # See system/core/init/builtins.cpp#do_mount for details.
+    mount ext4 loop@/data/vp/metrics.img /data/metrics noatime
+    start vpm_verify
+
+# Unmount vpartition on shutdown to avoid blocking init from unmounting /data
+on shutdown
+    start logd-shutdownLUI
+    start vpm_unmount
+
+# service name has length limit of 16
+service vpm_mount /system/bin/vpartition.sh --mount /data/metrics /data/vp/metrics.img 4096 2560
+    group system shell log
+    disabled
+    oneshot
+
+service vpm_verify /system/bin/vpartition.sh --verify /data/metrics /data/vp/metrics.img
+    group system shell log
+    disabled
+    oneshot
+
+service vpm_unmount /system/bin/vpartition.sh --umount /data/metrics
+    group system shell log
+    disabled
+    oneshot
+    shutdown critical  # Don't let init kill this immediately when running on shutdown
+
+service vpm_remove /system/bin/vpartition.sh --erase /data/vp/metrics.img /data/metrics
+    group system shell log
+    disabled
+    oneshot

@@ -1,0 +1,23 @@
+#
+# Copyright (c) 2018 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+on init
+    # Mount logd node
+    mkdir /dev/logd 0770 logd log
+    mount tmpfs tmpfs /dev/logd mode=0770,uid=1036,gid=1036,size=512K,context=u:object_r:amz_logd_tmpfs:s0
+
+on post-fs-data
+    # Create directory for logd archive files
+    mkdir /data/logd 0770 logd log
+
+    # Create directory for vitals database
+    mkdir /data/vitals 0700 logd logd
+
+service logd-shutdownLUI /system/bin/logd --shutdownLUI
+    oneshot
+    disabled
+    user logd
+    group logd
+    writepid /dev/cpuset/system-background/tasks
+    shutdown critical

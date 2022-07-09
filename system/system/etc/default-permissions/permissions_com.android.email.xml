@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--
+    This file contains dangerous permissions to be granted by default
+    for email app.
+-->
+<exceptions>
+    <exception package="com.android.email">
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true" />
+        <permission name="android.permission.GET_ACCOUNTS" fixed="true" />
+        <permission name="android.permission.WRITE_CONTACTS" fixed="true" />
+        <permission name="android.permission.READ_CONTACTS" fixed="true" />
+        <permission name="android.permission.READ_CALENDAR" fixed="true" />
+        <permission name="android.permission.WRITE_CALENDAR" fixed="true" />
+        <permission name="android.permission.READ_PHONE_STATE" fixed="true" />
+        <permission name="com.android.email.permission.READ_ATTACHMENT" fixed="true" />
+	<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="true" />
+    </exception>
+</exceptions>

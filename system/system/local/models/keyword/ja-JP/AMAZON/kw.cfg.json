@@ -1,0 +1,201 @@
+{
+  "acoustic-model": {
+    "non-speech-pdf": -2,
+    "speech-pdf": -1
+  },
+  "keyword-orchestra": {
+    "buffer-size": 200,
+    "keyword-spotters": [
+      {
+        "classifier": {
+          "type": "vector-space",
+          "vector-space": {
+            "vector-space-classifier": {
+              "map": [
+                {
+                  "classifier": {
+                    "normalized-vector-space-classifier": {
+                      "classifier": {
+                        "svm": {
+                          "filename": "AMAZON.psvm",
+                          "probabilistic": false
+                        },
+                        "type": "svm"
+                      },
+                      "normalizer": {
+                        "scale": {
+                          "filename": "AMAZON.scales"
+                        },
+                        "type": "scale"
+                      }
+                    },
+                    "type": "normalized-vector-space-classifier"
+                  },
+                  "name": "AMAZON"
+                }
+              ],
+              "type": "map"
+            },
+            "vector-space-mapper": {
+              "type": "version1",
+              "version1": {}
+            }
+          }
+        },
+        "hmm": {
+          "bg": {
+            "filename": "AMAZON.bg.hclg.pfst",
+            "type": "pryon-fst"
+          },
+          "fg": {
+            "filename": "AMAZON.fg.hclg.pfst",
+            "type": "pryon-fst"
+          },
+          "search-space": {
+            "beam": 25,
+            "block-size": 1024,
+            "max-depth": 200
+          },
+          "window-size": 6
+        },
+        "name": "AMAZON",
+        "spotter": {
+          "classification-limits": {
+            "max-per-window": 3,
+            "stickiness": 0,
+            "window-size": 100
+          },
+          "classification-thresholds": {
+            "accept-threshold": 1.0,
+            "escalate-threshold": 1e+37,
+            "notify-threshold": 0.0,
+            "overrides": [
+              {
+                "accept-threshold": 0.8,
+                "clientProperties": [
+                  {
+                    "equals": 1,
+                    "name": "AlarmState"
+                  }
+                ],
+                "notify-threshold": -5.0
+              },
+              {
+                "accept-threshold": 0.8,
+                "clientProperties": [
+                  {
+                    "equals": 1,
+                    "name": "AudioPlayerState"
+                  }
+                ],
+                "notify-threshold": -5.0
+              },
+              {
+                "accept-threshold": 0.8,
+                "clientProperties": [
+                  {
+                    "equals": 1,
+                    "name": "audio_playback"
+                  }
+                ],
+                "notify-threshold": -5.0
+              }
+            ]
+          },
+          "cleanup-period": 6000,
+          "escalation-period": 200,
+          "hmm-thresholds": {
+            "accept-threshold": 0,
+            "escalate-threshold": 1e+37,
+            "notify-threshold": 0
+          },
+          "lock-period": 40,
+          "probabilistic-hmm-near-miss": {
+            "decay": 15,
+            "enabled": false
+          }
+        }
+      },
+      {
+        "classifier": {
+          "type": "vector-space",
+          "vector-space": {
+            "vector-space-classifier": {
+              "trivial": {
+                "score": 0.0
+              },
+              "type": "trivial"
+            },
+            "vector-space-mapper": {
+              "type": "version1",
+              "version1": {}
+            }
+          }
+        },
+        "hmm": {
+          "bg": {
+            "filename": "STOP.bg.hclg.pfst",
+            "type": "pryon-fst"
+          },
+          "fg": {
+            "filename": "STOP.fg.hclg.pfst",
+            "type": "pryon-fst"
+          },
+          "search-space": {
+            "beam": 25.0,
+            "block-size": 1024,
+            "max-depth": 200
+          },
+          "window-size": 6
+        },
+        "name": "STOP",
+        "spotter": {
+          "classification-limits": {
+            "max-per-window": 3,
+            "stickiness": 0,
+            "window-size": 100
+          },
+          "classification-thresholds": {
+            "accept-threshold": 0.0,
+            "escalate-threshold": 1e+37,
+            "notify-threshold": 1e+37
+          },
+          "cleanup-period": 6000,
+          "escalation-period": 200,
+          "hmm-thresholds": {
+            "accept-threshold": 0.0,
+            "escalate-threshold": 1e+37,
+            "notify-threshold": 1e+37
+          },
+          "lock-period": 40
+        }
+      }
+    ]
+  },
+  "keyword-orchestra-monitor": {
+    "statistics": {
+      "classification": {
+        "histogram": {
+          "max": 4,
+          "min": -4,
+          "size": 50
+        }
+      },
+      "segmentation": {
+        "histogram": {
+          "max": 40,
+          "min": -30,
+          "size": 50
+        }
+      }
+    }
+  },
+  "object_type_name": "keyword-spotter-orchestra-config",
+  "object_type_version": 2,
+  "phone-symbol-table": {
+    "filename": "phones.txt"
+  },
+  "word-symbol-table": {
+    "filename": "words.shrunk.txt"
+  }
+}

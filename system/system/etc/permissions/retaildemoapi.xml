@@ -1,0 +1,4 @@
+<permissions>
+    <library name="retaildemoapi" file="/system/framework/retaildemoapi.jar"/>
+</permissions>
+

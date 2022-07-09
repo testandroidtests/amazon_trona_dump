@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+    PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<permissions>
+    <!-- By declaring the feature fireos.software.perfanr here, the api
+         PackageManager.hasSystemFeature(String feature) will
+         return true if passed one of the following names. -->
+    <feature name="fireos.software.perfanr" />
+</permissions>

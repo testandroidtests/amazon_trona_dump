@@ -1,0 +1,120 @@
+#line 1 "device/amazon/common/sepolicy/amazon_hal/devicetype/property_contexts"
+#
+# Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+
+ro.product.config.type u:object_r:devicetype_prop:s0
+
+#line 1 "device/amazon/common/sepolicy/fireos/property_contexts"
+#
+# Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+
+ro.build.lab126.        u:object_r:kats_build_prop:s0
+
+#line 1 "fireos/base/features/AmazonLogd/sepolicy_old/property_contexts"
+#
+# Copyright (c) 2018 - 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+vpartition.             u:object_r:logd_prop:s0
+logd.init.              u:object_r:logd_prop:s0
+
+#line 1 "fireos/base/features/AmazonNetworkManager/sepolicy/property_contexts"
+#
+# Copyright (c) 2020 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+
+# wifi_prop
+persist.wifi.      u:object_r:wifi_prop:s0
+
+#line 1 "fireos/base/features/AmazonWifiManager/sepolicy/property_contexts"
+#
+# Copyright (c) 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+# Host AP properties
+vendor.sys.hostap.support u:object_r:exported_system_prop:s0 exact string
+
+#line 1 "fireos/base/features/BspDiagService/sepolicy/property_contexts"
+# Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+#
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+
+sys.amzn_bsp_diag.emmc_lifetime u:object_r:amzn_emmc_lifetime_prop:s0
+
+#line 1 "fireos/base/features/TimeService/sepolicy/property_contexts"
+#
+# Copyright (c) 2020 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+
+logd.time.update u:object_r:logd_prop:s0 exact string
+
+#line 1 "fireos/base/features/WifiLogLevels/sepolicy/property_contexts"
+#
+# Copyright (c) 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+
+# wifi_log_levels
+vendor.wifi.wlan0.      u:object_r:wifi_log_levels_prop:s0
+
+#line 1 "fireos/base/features/AmazonAudioManager/sepolicy/property_contexts"
+#
+# Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+# set property context for max volume steps ro property for each stream
+# media and voice_call property context are set by AOSP
+ro.config.system_vol_steps u:object_r:exported2_config_prop:s0 exact int
+ro.config.ring_vol_steps u:object_r:exported2_config_prop:s0 exact int
+ro.config.alarm_vol_steps u:object_r:exported2_config_prop:s0 exact int
+ro.config.notification_vol_steps u:object_r:exported2_config_prop:s0 exact int
+ro.config.bt_sco_vol_steps u:object_r:exported2_config_prop:s0 exact int
+ro.config.system_enforced_vol_steps u:object_r:exported2_config_prop:s0 exact int
+ro.config.dtmf_vol_steps u:object_r:exported2_config_prop:s0 exact int
+ro.config.tts_vol_steps u:object_r:exported2_config_prop:s0 exact int
+ro.config.accessibility_vol_steps u:object_r:exported2_config_prop:s0 exact int
+
+# set property context for default stream volume
+# system, media and alarm property context are set by AOSP
+ro.config.voice_call_vol_default u:object_r:exported2_config_prop:s0 exact int
+ro.config.ring_vol_default u:object_r:exported2_config_prop:s0 exact int
+ro.config.notification_vol_default u:object_r:exported2_config_prop:s0 exact int
+ro.config.bt_sco_vol_default u:object_r:exported2_config_prop:s0 exact int
+ro.config.system_enforced_vol_default u:object_r:exported2_config_prop:s0 exact int
+ro.config.dtmf_vol_default u:object_r:exported2_config_prop:s0 exact int
+ro.config.tts_vol_default u:object_r:exported2_config_prop:s0 exact int
+ro.config.accessibility_vol_default u:object_r:exported2_config_prop:s0 exact int
+
+#line 1 "fireos/base/features/AmazonFosFlags/sepolicy/property_contexts"
+#
+# Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+amazon.fos_flags.      u:object_r:shell_prop:s0
+
+#line 1 "fireos/base/features/AmazonSignalCatcher/sepolicy/property_contexts"
+#
+# Copyright (c) 2021 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+# set property to enable/disable signal_catcher feature from arcus config which increases
+# signal_catcher priority
+persist.signalcatcher.priority u:object_r:exported2_system_prop:s0 exact bool
+
+#line 1 "fireos/base/features/FactoryResetWhitelist/sepolicy/property_contexts"
+#
+# Copyright (c) 2022 Amazon.com, Inc. or its affiliates.  All rights reserved.
+# PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+#
+
+backup_whitelist.status u:object_r:system_prop:s0
+
+#line 1 "fireos/base/features/BatteryControl/sepolicy/property_contexts"
+persist.vendor.bcm.batt_stress u:object_r:bcm_stress_prop:s0
+
